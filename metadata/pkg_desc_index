@@ -1,0 +1,32 @@
+app-admin/clockwork 3.2.0 9999: The nifty configuration managment system
+app-admin/helm 2.2.0: The Kubernetes Package Manager
+app-misc/ztk 9999: ZeroMQ Toolkit
+dev-libs/ctap 2.0.0 9999: Test Anything Protocol (tap) for C
+dev-libs/libconcurrent 9999: Concurrent Programming Library (Coroutine) for C
+dev-libs/libmill 1.4: Go-style concurrency for C
+dev-libs/libspooky 1.0.0: Spooky hash lib
+dev-libs/libvigor 1.2.10 9999: The missing bits of C
+dev-perl/Authen-OATH 1.0.0: OATH One Time Passwords
+dev-perl/Directory-Scratch 0.15: self-cleaning scratch space for tests
+dev-perl/ExtUtils-ModuleMaker 0.51: Better than h2xs for creating modules
+dev-perl/File-Save-Home 0.09: Place file safely under user home directory
+dev-perl/Git-Repository 1.301: Perl interface to Git repositories
+dev-perl/Net-GitHub 0.83: 
+dev-perl/Net-OAuth2 0.61: Perl OAuth 2.0 implementation
+dev-perl/Redis-hiredis 0.11.0: interact with Redis using the hiredis client
+dev-perl/System-Command 1.09: Object for running system commands
+dev-perl/Type-Tiny 1.000004: 
+net-analyzer/bolo 0.2.17 9999: The Bolo Monitoring System
+net-analyzer/bolo-collectors 0.4.11 9999: Collector Scripts for bolo
+net-libs/libcurve 9999: An encryption and authentication library for ZeroMQ applications
+net-proxy/seesaw 9999: Seesaw v2 is a Linux Virtual Server (LVS) based load balancing platform
+sys-cluster/kube-aggregator 1.5.3: API powered Kubernetes Aggregator for multiple clusters
+sys-cluster/kube-apiserver 1.5.3: The frontend REST API for a Kubernetes cluster
+sys-cluster/kube-controller-manager 1.5.3: The shared state master of a Kubernetes Cluster
+sys-cluster/kube-discovery 1.5.3: Utility to discover Kubernetes API server addresses and pass it to nodes
+sys-cluster/kube-proxy 1.5.3: The Kubernetes networking agent that runs on each node
+sys-cluster/kube-scheduler 1.5.3: The Kubernetes state machine that controls workload and autoscaling
+sys-cluster/kubectl 1.5.3: CLI to run commands against Kubernetes clusters
+sys-cluster/kubefed 1.5.3: The daemon agent responsible for federating multiple Kubernetes clusters
+sys-cluster/kubelet 1.5.3: The daemon agent that runs on each node of Kubernetes clusters
+x11-themes/albatross 1.7.4: Desktop Suite for Xfce
