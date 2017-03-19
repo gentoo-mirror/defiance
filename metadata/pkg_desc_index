@@ -16,6 +16,7 @@ dev-perl/Net-OAuth2 0.61: Perl OAuth 2.0 implementation
 dev-perl/Redis-hiredis 0.11.0: interact with Redis using the hiredis client
 dev-perl/System-Command 1.09: Object for running system commands
 dev-perl/Type-Tiny 1.000004: 
+dev-util/ragel 6.9-r1: Compiles finite state machines from regular languages into executable code
 net-analyzer/bolo 0.2.17 9999: The Bolo Monitoring System
 net-analyzer/bolo-collectors 0.4.11 9999: Collector Scripts for bolo
 net-libs/libcurve 9999: An encryption and authentication library for ZeroMQ applications
