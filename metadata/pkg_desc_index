@@ -19,6 +19,7 @@ dev-perl/Type-Tiny 1.000004:
 dev-util/ragel 6.9-r1: Compiles finite state machines from regular languages into executable code
 net-analyzer/bolo 0.2.17 9999: The Bolo Monitoring System
 net-analyzer/bolo-collectors 0.4.11 9999: Collector Scripts for bolo
+net-dns/bind-dyndb-ldap 11.1: Bind DynDB LDAP backend (replacement for sdb-ldap and dlz)
 net-libs/libcurve 9999: An encryption and authentication library for ZeroMQ applications
 net-proxy/seesaw 9999: Seesaw v2 is a Linux Virtual Server (LVS) based load balancing platform
 sys-cluster/kube-aggregator 1.5.3: API powered Kubernetes Aggregator for multiple clusters
