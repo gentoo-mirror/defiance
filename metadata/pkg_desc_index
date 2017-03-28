@@ -1,5 +1,5 @@
 app-admin/clockwork 3.2.0 9999: The nifty configuration managment system
-app-admin/helm 2.2.0: The Kubernetes Package Manager
+app-admin/helm-bin 2.2.3: The Kubernetes Package Manager
 app-misc/ztk 9999: ZeroMQ Toolkit
 dev-libs/ctap 2.0.0 9999: Test Anything Protocol (tap) for C
 dev-libs/libconcurrent 9999: Concurrent Programming Library (Coroutine) for C
