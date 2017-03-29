@@ -22,13 +22,13 @@ net-analyzer/bolo-collectors 0.4.11 9999: Collector Scripts for bolo
 net-dns/bind-dyndb-ldap 11.1: Bind DynDB LDAP backend (replacement for sdb-ldap and dlz)
 net-libs/libcurve 9999: An encryption and authentication library for ZeroMQ applications
 net-proxy/seesaw 9999: Seesaw v2 is a Linux Virtual Server (LVS) based load balancing platform
-sys-cluster/kube-aggregator 1.5.3 1.5.5: API powered Kubernetes Aggregator for multiple clusters
-sys-cluster/kube-apiserver 1.5.3 1.5.5: The frontend REST API for a Kubernetes cluster
-sys-cluster/kube-controller-manager 1.5.3 1.5.5: The shared state master of a Kubernetes Cluster
-sys-cluster/kube-discovery 1.5.3 1.5.5: Utility to discover Kubernetes API server addresses and pass it to nodes
-sys-cluster/kube-proxy 1.5.3 1.5.5: The Kubernetes networking agent that runs on each node
-sys-cluster/kube-scheduler 1.5.3 1.5.5: The Kubernetes state machine that controls workload and autoscaling
-sys-cluster/kubectl 1.5.3 1.5.5: CLI to run commands against Kubernetes clusters
-sys-cluster/kubefed 1.5.3 1.5.5: The daemon agent responsible for federating multiple Kubernetes clusters
-sys-cluster/kubelet 1.5.3 1.5.5: The daemon agent that runs on each node of Kubernetes clusters
+sys-cluster/kube-aggregator 1.5.3 1.5.5 1.6.0: API powered Kubernetes Aggregator for multiple clusters
+sys-cluster/kube-apiserver 1.5.3 1.5.5 1.6.0: The frontend REST API for a Kubernetes cluster
+sys-cluster/kube-controller-manager 1.5.3 1.5.5 1.6.0: The shared state master of a Kubernetes Cluster
+sys-cluster/kube-discovery 1.5.3 1.5.5 1.6.0: Utility to discover Kubernetes API server addresses and pass it to nodes
+sys-cluster/kube-proxy 1.5.3 1.5.5 1.6.0: The Kubernetes networking agent that runs on each node
+sys-cluster/kube-scheduler 1.5.3 1.5.5 1.6.0: The Kubernetes state machine that controls workload and autoscaling
+sys-cluster/kubectl 1.5.3 1.5.5 1.6.0: CLI to run commands against Kubernetes clusters
+sys-cluster/kubefed 1.5.3 1.5.5 1.6.0: The daemon agent responsible for federating multiple Kubernetes clusters
+sys-cluster/kubelet 1.5.3 1.5.5 1.6.0: The daemon agent that runs on each node of Kubernetes clusters
 x11-themes/albatross 1.7.4: Desktop Suite for Xfce
