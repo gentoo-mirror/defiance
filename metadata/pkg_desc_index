@@ -3,6 +3,7 @@ app-admin/helm-bin 2.2.3 2.3.0: The Kubernetes Package Manager
 app-misc/ztk 9999: ZeroMQ Toolkit
 dev-libs/ctap 2.0.0 9999: Test Anything Protocol (tap) for C
 dev-libs/libconcurrent 9999: Concurrent Programming Library (Coroutine) for C
+dev-libs/liblazy 0.0.1: a library for lazy people
 dev-libs/libmill 1.4: Go-style concurrency for C
 dev-libs/libspooky 1.0.0: Spooky hash lib
 dev-libs/libvigor 1.2.10 9999: The missing bits of C
