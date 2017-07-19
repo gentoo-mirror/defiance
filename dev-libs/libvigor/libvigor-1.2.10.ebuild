@@ -3,8 +3,6 @@
 
 EAPI=6
 
-inherit autotools
-
 DESCRIPTION="The missing bits of C"
 HOMEPAGE="https://github.com/jhunt/libvigor"
 SRC_URI="https://github.com/jhunt/${PN}/releases/download/v${PV}/${P}.tar.gz"
@@ -15,16 +13,10 @@ SLOT="0"
 IUSE=""
 
 DEPEND="
-	>=dev-libs/ctap-1.1.5
 	dev-libs/libsodium
 	net-libs/zeromq
 "
 RDEPEND="${DEPEND}"
-
-src_prepare() {
-	eapply_user
-	eautoreconf
-}
 
 src_compile() {
 	emake -j1 || die
