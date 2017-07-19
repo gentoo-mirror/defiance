@@ -6,4 +6,5 @@ KEYWORDS=arm amd64 x86
 LICENSE=GPL-3
 SLOT=0
 SRC_URI=https://github.com/graytshirt/libspooky/archive/v1.0.0.tar.gz -> libspooky-1.0.0.tar.gz
+_eclass_exported_funcs=-
 _md5_=f6e43575e1246c73f8f24d0599c0f514

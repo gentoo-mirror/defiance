@@ -6,4 +6,5 @@ KEYWORDS=~arm ~amd64 ~x86
 LICENSE=GPL-3
 SLOT=0
 SRC_URI=https://github.com/sustrik/libmill/archive/1.18.tar.gz -> libmill-1.18.tar.gz
+_eclass_exported_funcs=-
 _md5_=c15805ee9deb390b1551fa87032edd6b
