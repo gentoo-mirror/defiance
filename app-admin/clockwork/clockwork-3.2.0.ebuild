@@ -1,10 +1,10 @@
 # Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI='5'
+EAPI=6
 AUTOTOOLS_AUTORECONF=yes
 
-inherit base autotools-utils eutils user
+inherit eutils user
 
 SLOT="0"
 
@@ -13,7 +13,7 @@ DESCRIPTION="The nifty configuration managment system"
 HOMEPAGE="http://clockwork.niftylogic.com/"
 
 SRC_URI="https://github.com/jhunt/clockwork/archive/v${PV}.tar.gz -> ${P}.tar.gz"
-KEYWORDS="arm amd64 x86"
+KEYWORDS="~amd64 ~x86"
 
 IUSE="clockd meshd vim-syntax"
 
@@ -25,9 +25,14 @@ DEPEND="
 	>=dev-libs/libvigor-1.2.6
 	>=dev-libs/ctap-1.1.5
 	dev-util/ccache
+"
+RDEPEND="
+	dev-libs/libpcre
+	app-admin/augeas
+	>=dev-libs/libvigor-1.2.6
+	dev-util/ccache
 	app-portage/eix
 "
-RDEPEND="${DEPEND}"
 
 AUTOTOOLS_IN_SOURCE_BUILD=1
 
