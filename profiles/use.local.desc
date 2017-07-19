@@ -2,3 +2,9 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+net-analyzer/bolo:core - Build the aggregation daemon
+net-analyzer/bolo:dbolo - Build the metrics collection agent
+net-analyzer/bolo:meta - Build the daemon to track internal performance
+net-analyzer/bolo:postgres - Build the daemon to dump alerts to postgres
+net-analyzer/bolo:rrdtool - Build the daemon to dump metrics to rrd
+net-analyzer/bolo:sqlite - Build the daemon to dump alerts to sqlite
