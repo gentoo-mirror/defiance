@@ -7,5 +7,6 @@ KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
 RDEPEND=>=dev-libs/ctap-1.1.5 dev-libs/libsodium net-libs/zeromq
 SLOT=0
+_eclass_exported_funcs=src_unpack:git-r3
 _eclasses_=git-r3	cbafa3261c37c7e3af44bb16a34ea390
 _md5_=f2c15f7398ce40cbf0055de214332d61

@@ -1,7 +1,7 @@
-app-admin/clockwork 3.2.0 9999: The nifty configuration managment system
+app-admin/clockwork 3.2.0: The nifty configuration managment system
 app-admin/helm-bin 2.5.0: The Kubernetes Package Manager
 app-misc/ztk 9999: ZeroMQ Toolkit
-dev-libs/ctap 2.0.0 9999: Test Anything Protocol (tap) for C
+dev-libs/ctap 2.0.0: Test Anything Protocol (tap) for C
 dev-libs/liblead 0.0.1: High density shim library
 dev-libs/libmill 1.4: Go-style concurrency for C
 dev-libs/libspooky 1.0.0: Spooky hash lib
@@ -14,6 +14,7 @@ dev-perl/Git-Repository 1.301: Perl interface to Git repositories
 dev-perl/Net-GitHub 0.83: Perl Interface for github.com
 dev-perl/Net-OAuth2 0.61: Perl OAuth 2.0 implementation
 dev-perl/Redis-hiredis 0.11.0: interact with Redis using the hiredis client
+dev-perl/String-PerlIdentifier 0.06: Generate a random name for a Perl variable
 dev-perl/System-Command 1.09: Object for running system commands
 dev-util/ragel 6.9-r1: Compiles finite state machines from regular languages into executable code
 net-analyzer/bolo 0.3.0 9999: The Bolo Monitoring System

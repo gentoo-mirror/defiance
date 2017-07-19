@@ -2,9 +2,19 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-admin/clockwork:clockd - Install the master daemon
+app-admin/clockwork:meshd - Install the clockwork push daemon
+app-admin/clockwork:vim-syntax - Install vim syntax for clockwork configuration and recipies
 net-analyzer/bolo:core - Build the aggregation daemon
 net-analyzer/bolo:dbolo - Build the metrics collection agent
 net-analyzer/bolo:meta - Build the daemon to track internal performance
 net-analyzer/bolo:postgres - Build the daemon to dump alerts to postgres
 net-analyzer/bolo:rrdtool - Build the daemon to dump metrics to rrd
 net-analyzer/bolo:sqlite - Build the daemon to dump alerts to sqlite
+net-analyzer/bolo-collectors:http - enable gathering metrics from apache and nginx
+net-analyzer/bolo-collectors:iptables - enable gathering metrics from iptables rules
+net-analyzer/bolo-collectors:mysql - enable gathering metrics by connecting to mysql
+net-analyzer/bolo-collectors:postgres - enable gathering metrics by connecting to postgres
+net-analyzer/bolo-collectors:rrdtool - enable capturing rrdtool-cache statisics
+net-analyzer/bolo-collectors:snmp - enable gathering network device telemetry via snmp
+net-proxy/seesaw:anycast - Enable anycast TCP protocol via communication with quagga
