@@ -3,8 +3,7 @@
 
 EAPI=6
 
-AUTOTOOLS_AUTORECONF=yes
-AUTOTOOLS_IN_SOURCE_BUILD=yes
+inherit autotools
 
 DESCRIPTION="Go-style concurrency for C"
 HOMEPAGE="http://libmill.org/"
@@ -17,3 +16,8 @@ IUSE=""
 
 DEPEND=""
 RDEPEND="${DEPEND}"
+
+src_prepare() {
+	eapply_user
+	eautoreconf
+}
