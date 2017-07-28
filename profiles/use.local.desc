@@ -9,6 +9,7 @@ net-analyzer/bolo:core - Build the aggregation daemon
 net-analyzer/bolo:dbolo - Build the metrics collection agent
 net-analyzer/bolo:meta - Build the daemon to track internal performance
 net-analyzer/bolo:postgres - Build the daemon to dump alerts to postgres
+net-analyzer/bolo:redis - Build the keys to redis daemon
 net-analyzer/bolo:rrdtool - Build the daemon to dump metrics to rrd
 net-analyzer/bolo:sqlite - Build the daemon to dump alerts to sqlite
 net-analyzer/bolo-collectors:http - enable gathering metrics from apache and nginx
