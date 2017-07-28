@@ -12,15 +12,18 @@ SRC_URI="https://github.com/${PN}/${PN}/releases/download/v${PV}/${P}.tar.gz"
 KEYWORDS="~arm ~amd64 ~x86"
 LICENSE="GPL-3"
 SLOT="0"
-IUSE="core +dbolo meta postgres redis rrdtool sqlite"
+IUSE="core console +dbolo ffd influxdb meta postgres redis rrdtool slack sqlite"
 
 DEPEND="
 	>=dev-libs/libvigor-1.1.0
 	dev-libs/libpcre
+	console? ( sys-libs/ncurses:0 )
+	influxdb? ( net-misc/curl )
+	redis? ( dev-libs/hiredis )
 	rrdtool? ( net-analyzer/rrdtool )
 	postgres? ( dev-db/postgresql:* )
+	slack? ( net-misc/curl )
 	sqlite? ( dev-db/sqlite )
-	redis? ( dev-libs/hiredis )
 "
 RDEPEND="${DEPEND}"
 
@@ -31,22 +34,28 @@ pkg_setup() {
 
 src_configure() {
 	econf \
+		$(use_with console console-subscriber) \
+		$(use_with ffd ffd-subscriber) \
 		$(use_with postgres pg-subscriber) \
+		$(use_with redis redis-subscriber) \
 		$(use_with rrdtool rrd-subscriber) \
 		$(use_with sqlite sqlite-subscriber) \
-		$(use_with redis redis-subscriber)
+		$(use_with slack slack-subscriber) \
+		$(use_with influxdb influxdb-subscriber)
 }
 
 src_install() {
 	einfo   "Installing Bolo Monitoring System"
 	insinto  /etc/bolo
 	insopts  -o bolo -g bolo
-	doman    man/bolo_send.1 man/bolo_stat.1
-	dobin    bolo bolospy bolo_nsca
+	doman    man/bolo-send.1
+	dobin    bolo
 	if use core; then
 		einfo    "  Core"
 		dosbin    bolo
-		doman     man/bolo.conf.5 man/bolo.8
+		doman     man/bolo.conf.5 man/bolo.1       man/bolo-forget.1
+		doman     man/bolo-name.1 man/bolo-query.1 man/bolo-cache.1
+		doman     man/bolo-spy.1  man/bolo-aggr.1
 		doins    "${FILESDIR}/bolo.conf"
 		newinitd "${FILESDIR}/bolo.initd" bolo
 		newinitd "${FILESDIR}/bolo2log.initd" bolo2log
