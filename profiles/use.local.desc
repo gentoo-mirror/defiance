@@ -5,12 +5,16 @@
 app-admin/clockwork:clockd - Install the master daemon
 app-admin/clockwork:meshd - Install the clockwork push daemon
 app-admin/clockwork:vim-syntax - Install vim syntax for clockwork configuration and recipies
+net-analyzer/bolo:console - Build the ncurses console subscriber
 net-analyzer/bolo:core - Build the aggregation daemon
 net-analyzer/bolo:dbolo - Build the metrics collection agent
+net-analyzer/bolo:ffd - Build the flat file daemon subscriber to store metrics
+net-analyzer/bolo:influxdb - Build the influxdb subscriber to send metrics
 net-analyzer/bolo:meta - Build the daemon to track internal performance
 net-analyzer/bolo:postgres - Build the daemon to dump alerts to postgres
 net-analyzer/bolo:redis - Build the keys to redis daemon
 net-analyzer/bolo:rrdtool - Build the daemon to dump metrics to rrd
+net-analyzer/bolo:slack - Build the slack subscriber to send alets
 net-analyzer/bolo:sqlite - Build the daemon to dump alerts to sqlite
 net-analyzer/bolo-collectors:http - enable gathering metrics from apache and nginx
 net-analyzer/bolo-collectors:iptables - enable gathering metrics from iptables rules
