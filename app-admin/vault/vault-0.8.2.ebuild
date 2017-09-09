@@ -30,6 +30,8 @@ src_prepare() {
 		-e 's:^\(GIT_DIRTY=\).*:\1:' \
 		-e s:\'\${GIT_COMMIT}\${GIT_DIRTY}\':: \
 		-i src/${EGO_PN}/scripts/build.sh || die
+	sed -e 's:cp\ \.hooks/\*\ \.git/hooks/::' \
+		-i src/${EGO_PN}/Makefile || die
 }
 
 pkg_setup() {
