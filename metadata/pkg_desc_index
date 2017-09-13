@@ -8,9 +8,11 @@ dev-libs/libmill 1.18: Go-style concurrency for C
 dev-libs/libspooky 1.0.0: Spooky hash lib
 dev-libs/libvigor 1.2.10: The missing bits of C
 dev-perl/Authen-OATH 1.0.0: OATH One Time Passwords
+dev-perl/Dancer 1.3202: A minimal-effort oriented web application framework
 dev-perl/Directory-Scratch 0.18: self-cleaning scratch space for tests
 dev-perl/ExtUtils-ModuleMaker 0.56: Better than h2xs for creating modules
 dev-perl/File-Save-Home 0.09: Place file safely under user home directory
+dev-perl/Gazelle 0.46: a Preforked Plack Handler for performance freaks
 dev-perl/Git-Repository 1.320: Perl interface to Git repositories
 dev-perl/Net-GitHub 0.89: Perl Interface for github.com
 dev-perl/Net-OAuth2 0.63: Perl OAuth 2.0 implementation
