@@ -8,6 +8,7 @@ dev-libs/libmill 1.18: Go-style concurrency for C
 dev-libs/libspooky 1.0.0: Spooky hash lib
 dev-libs/libvigor 1.2.10: The missing bits of C
 dev-perl/Authen-OATH 1.0.0: OATH One Time Passwords
+dev-perl/Authen-SASL-XS 1.00: 
 dev-perl/Dancer 1.3202: A minimal-effort oriented web application framework
 dev-perl/Directory-Scratch 0.18: self-cleaning scratch space for tests
 dev-perl/ExtUtils-ModuleMaker 0.56: Better than h2xs for creating modules
