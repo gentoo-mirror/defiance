@@ -3,6 +3,7 @@ app-admin/consul 0.9.3: A tool for service discovery, monitoring and configurati
 app-admin/helm-bin 2.5.0: The Kubernetes Package Manager
 app-admin/vault 0.8.3: A tool for managing secrets
 app-misc/ztk 9999: ZeroMQ Toolkit
+dev-db/citus 7.0.2: Scalable PostgreSQL for multi-tenant and real-time workloads
 dev-libs/ctap 2.0.0: Test Anything Protocol (tap) for C
 dev-libs/libmill 1.18: Go-style concurrency for C
 dev-libs/libspooky 1.0.0: Spooky hash lib
