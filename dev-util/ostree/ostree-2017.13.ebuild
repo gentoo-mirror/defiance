@@ -39,12 +39,14 @@ DEPEND="
 RDEPEND="${DEPEND}"
 
 src_configure() {
+	export OT_DEP_CRYPTO_CFLAGS=""
+	export OT_DEP_CURL_CFLAGS=""
+
 	econf \
 		$(use_with curl) \
 		$(use_with soup) \
 		--with-crypto=openssl \
 		--with-openssl \
 		$(use_with zeroconf avahi) \
-		--with-mkinitcpio \
 		$(use_with systemd)
 }
