@@ -32,6 +32,7 @@ DEPEND="
 	grub? ( sys-boot/grub )
 	gjs? ( dev-libs/gjs )
 
+	selinux? ( sys-libs/libselinux )
 	soup? ( net-libs/libsoup )
 	systemd? ( sys-apps/systemd )
 	zeroconf? ( net-dns/avahi )
@@ -39,14 +40,13 @@ DEPEND="
 RDEPEND="${DEPEND}"
 
 src_configure() {
-	export OT_DEP_CRYPTO_CFLAGS=""
-	export OT_DEP_CURL_CFLAGS=""
-
 	econf \
+		OT_DEP_CRYPTO_CFLAGS=' ' \
+		OT_DEP_CURL_CFLAGS=' ' \
 		$(use_with curl) \
 		$(use_with soup) \
 		--with-crypto=openssl \
 		--with-openssl \
-		$(use_with zeroconf avahi) \
-		$(use_with systemd)
+		$(use_with selinux ) \
+		$(use_with zeroconf avahi)
 }
