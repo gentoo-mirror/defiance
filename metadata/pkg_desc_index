@@ -7,6 +7,7 @@ dev-db/pg_qualstats 1.0.2: A PostgreSQL extension for collecting statistics abou
 dev-db/pg_stat_kcache 2.0.3: Gather statistics about physical disk access and CPU consumption done by backends
 dev-db/postgresql-hll 2.10.2: PostgreSQL extension adding HyperLogLog data structures as a native data type
 dev-db/powa 3.1.1: PostgreSQL Workload Analyzer
+dev-db/powa-web 3.1.4: 
 dev-db/timescaledb 9999: A time-series database optimized for fast ingest and complex queries
 dev-libs/ctap 2.0.0: Test Anything Protocol (tap) for C
 dev-libs/libmill 1.18: Go-style concurrency for C
