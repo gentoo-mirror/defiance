@@ -15,6 +15,10 @@ libs: libmill, libconcurrent, libspooky, libvigor
 
 ## Installation
 
+For Layman
+
+	layman -a defiance
+
 For Portage >= 2.3.8:
 
 	cd /usr/local && git clone https://github.com/d3fy/defiance-overlay.git
