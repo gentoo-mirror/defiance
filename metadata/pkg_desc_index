@@ -36,5 +36,5 @@ net-libs/libcurve 9999: An encryption and authentication library for ZeroMQ appl
 net-misc/frr 3.0.2 9999: an IP routing protocol suite for BGP, IS-IS, LDP, OSPF, PIM, and RIP
 net-proxy/seesaw 9999: Seesaw v2 is a Linux Virtual Server (LVS) based load balancing platform
 sys-cluster/glusterfs 3.12.2: GlusterFS is a powerful network/cluster filesystem
-sys-cluster/nomad 0.7.0: 
+sys-cluster/nomad 0.7.0: The cluster manager from Hashicorp
 x11-themes/albatross 1.7.4: Desktop Suite for Xfce
