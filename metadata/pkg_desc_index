@@ -1,7 +1,7 @@
 app-admin/clockwork 3.3.0 9999: The nifty configuration managment system
 app-admin/helm-bin 2.5.0: The Kubernetes Package Manager
 app-misc/ztk 9999: ZeroMQ Toolkit
-dev-db/citus 7.0.3: Scalable PostgreSQL for multi-tenant and real-time workloads
+dev-db/citus 7.0.3 7.1.0: Scalable PostgreSQL for multi-tenant and real-time workloads
 dev-db/hypopg 1.1.0: Hypothetical Indexes for PostgreSQL
 dev-db/pg_qualstats 1.0.2: A PostgreSQL extension for collecting statistics about predicates, helping find what indices are missing
 dev-db/pg_stat_kcache 2.0.3: Gather statistics about physical disk access and CPU consumption done by backends
