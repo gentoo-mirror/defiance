@@ -21,13 +21,13 @@ pkg_setup() {
 	linux-mod_pkg_setup
 }
 
-src_compile() {
+src_install() {
 	CTARGET="${ARCH}"
 	use amd64 && CTARGET='x86_64'
 	ARCH=${CTARGET} emake install \
 		T=${CTARGET}-native-linuxapp-$(tc-get-compiler-type) \
 		RTE_DEVEL_BUILD=n \
 		prefix="${EPREFIX}/usr" \
+		DESTDIR=${D} \
 		EXTRA_CFLAGS="${CFLAGS}"
-		# EXTRA_LDFLAGS="${LDFLAGS}"
 }
