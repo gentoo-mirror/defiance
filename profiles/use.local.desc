@@ -30,6 +30,7 @@ net-misc/frr:pam - Add support for PAM (via sys-libs/pam) to the Quagga Virtual 
 net-misc/frr:protobuf - Enable support for dev-libs/protobuf
 net-misc/frr:readline - Enable support for sys-libs/readline to provide the Quagga Virtual Terminal Interface Shell (vtysh)
 net-misc/frr:tcp-zebra - Enable TCP zserv interface on port 2600 for Zebra/protocol-daemon communication. Unix domain sockets are chosen otherwise
+net-misc/openvswitch:monitor - Build the Python and GUI dependent monitor applications
 net-proxy/seesaw:anycast - Enable anycast TCP protocol via communication with quagga
 sys-cluster/glusterfs:bd-xlator - Enable the blockdevice translator (requires sys-fs/lvm2)
 sys-cluster/glusterfs:crypt-xlator - Enable the encryption translator
