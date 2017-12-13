@@ -23,6 +23,7 @@ IUSE=""
 
 DEPEND="
 	dev-go/go-md2man
+	app-emulation/runc
 	dev-util/ostree"
 RDEPEND="${DEPEND}"
 
@@ -41,3 +42,8 @@ src_compile() {
 		emake -j1 # -C "${S}/src/${EGO_PN}" dev
 }
 
+src_install() {
+	pushd src/${EGO_PN} || die
+
+	emake DESTDIR="${D}" PREFIX="${D}${EPREFIX}/usr" install
+}
