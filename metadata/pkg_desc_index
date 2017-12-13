@@ -36,6 +36,7 @@ net-analyzer/bolo-collectors 0.4.13 9999: Collector Scripts for bolo
 net-dns/bind-dyndb-ldap 11.1 9999: Bind DynDB LDAP backend (replacement for sdb-ldap and dlz)
 net-libs/dpdk 17.05.2 17.11: A set of libraries and drivers for fast packet processing
 net-libs/libcurve 9999: An encryption and authentication library for ZeroMQ applications
+net-misc/cni-plugins 0.6.0: Some standard networking plugins, maintained by the CNI team
 net-misc/frr 3.0.2 9999: an IP routing protocol suite for BGP, IS-IS, LDP, OSPF, PIM, and RIP
 net-misc/openvswitch 2.8.1: Production quality, multilayer virtual switch
 net-proxy/seesaw 9999: Seesaw v2 is a Linux Virtual Server (LVS) based load balancing platform
