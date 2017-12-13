@@ -1,5 +1,6 @@
 app-admin/clockwork 3.3.0 9999: The nifty configuration managment system
 app-admin/helm-bin 2.5.0: The Kubernetes Package Manager
+app-emulation/cri-o 1.0.8: Lightweight container runtime for Kubernetes
 app-misc/ztk 9999: ZeroMQ Toolkit
 dev-db/citus 7.1.1: Scalable PostgreSQL for multi-tenant and real-time workloads
 dev-db/hypopg 1.1.0: Hypothetical Indexes for PostgreSQL
