@@ -4,7 +4,7 @@ app-emulation/cri-o 1.0.8: Lightweight container runtime for Kubernetes
 app-misc/ztk 9999: ZeroMQ Toolkit
 dev-db/citus 7.1.1: Scalable PostgreSQL for multi-tenant and real-time workloads
 dev-db/hypopg 1.1.0: Hypothetical Indexes for PostgreSQL
-dev-db/pg_qualstats 1.0.2: A PostgreSQL extension for collecting statistics about predicates, helping find what indices are missing
+dev-db/pg_qualstats 1.0.3: A PostgreSQL extension for collecting statistics about predicates, helping find what indices are missing
 dev-db/pg_stat_kcache 2.0.3: Gather statistics about physical disk access and CPU consumption done by backends
 dev-db/postgresql-hll 2.10.2: PostgreSQL extension adding HyperLogLog data structures as a native data type
 dev-db/powa 3.1.1: PostgreSQL Workload Analyzer
