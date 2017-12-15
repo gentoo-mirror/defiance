@@ -4,33 +4,33 @@ app-emulation/cri-o 1.0.8 1.8.4: Lightweight container runtime for Kubernetes
 app-misc/ztk 9999: ZeroMQ Toolkit
 dev-db/citus 7.1.1: Scalable PostgreSQL for multi-tenant and real-time workloads
 dev-db/hypopg 1.1.0: Hypothetical Indexes for PostgreSQL
-dev-db/pg_qualstats 1.0.3: A PostgreSQL extension for collecting statistics about predicates, helping find what indices are missing
-dev-db/pg_stat_kcache 2.0.3: Gather statistics about physical disk access and CPU consumption done by backends
+dev-db/pg_qualstats 1.0.3: A Postgres extension for collecting statistics about predicate
+dev-db/pg_stat_kcache 2.0.3: Gather statistics about disk access and CPU consumption done by backends
 dev-db/postgresql-hll 2.10.2: PostgreSQL extension adding HyperLogLog data structures as a native data type
 dev-db/powa 3.1.1: PostgreSQL Workload Analyzer
 dev-db/powa-web 3.1.4: The PostgreSQL Workload Analyzer web frontend
 dev-db/timescaledb 0.7.1 9999: A time-series database optimized for fast ingest and complex queries
 dev-libs/ctap 2.0.0: Test Anything Protocol (tap) for C
-dev-libs/intel-ipsec-mb 0.47: Multi-Buffer Crypto for IPsec Library
+dev-libs/intel-ipsec-mb 0.48: Multi-Buffer Crypto for IPsec Library
 dev-libs/libmill 1.18: Go-style concurrency for C
 dev-libs/libspooky 1.0.0: Spooky hash lib
 dev-libs/libvigor 1.2.10: The missing bits of C
 dev-perl/Authen-OATH 1.0.0: OATH One Time Passwords
-dev-perl/Authen-SASL-XS 1.00: 
+dev-perl/Authen-SASL-XS 1.00: Code to glue Perl SASL to Cyrus SASL
 dev-perl/Dancer 1.3202: A minimal-effort oriented web application framework
 dev-perl/Directory-Scratch 0.18: self-cleaning scratch space for tests
 dev-perl/ExtUtils-ModuleMaker 0.56: Better than h2xs for creating modules
 dev-perl/File-Save-Home 0.09: Place file safely under user home directory
 dev-perl/Gazelle 0.46: a Preforked Plack Handler for performance freaks
 dev-perl/Git-Repository 1.320: Perl interface to Git repositories
-dev-perl/Krb5 1.9: 
+dev-perl/Krb5 1.9: Perl extension for Kerberos 5
 dev-perl/Net-GitHub 0.89: Perl Interface for github.com
 dev-perl/Net-OAuth2 0.63: Perl OAuth 2.0 implementation
 dev-perl/Redis-hiredis 0.11.0: interact with Redis using the hiredis client
 dev-perl/String-PerlIdentifier 0.06: Generate a random name for a Perl variable
 dev-perl/System-Command 1.118: Object for running system commands
 dev-util/ostree 2017.14: Operating system and container binary deployment and upgrades
-dev-util/ragel 6.9-r1 6.10-r1: Compiles finite state machines from regular languages into executable code
+dev-util/ragel 6.10-r1: Compiles finite state machines from regular languages into executable code
 net-analyzer/bolo 0.3.0 9999: The Bolo Monitoring System
 net-analyzer/bolo-collectors 0.4.13 9999: Collector Scripts for bolo
 net-dns/bind-dyndb-ldap 11.1 9999: Bind DynDB LDAP backend (replacement for sdb-ldap and dlz)

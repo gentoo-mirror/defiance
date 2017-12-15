@@ -26,13 +26,19 @@ net-analyzer/bolo-collectors:postgres - enable gathering metrics by connecting t
 net-analyzer/bolo-collectors:rrdtool - enable capturing rrdtool-cache statisics
 net-analyzer/bolo-collectors:snmp - enable gathering network device telemetry via snmp
 net-libs/dpdk:shared - Build the shared object libraries instead of the static libraries
+net-misc/frr:datacenter - Enable Cumulus Switch and Data Center Extensions
+net-misc/frr:eigrpd - Enable support for the EIGRP protocol Daemon
 net-misc/frr:fpm - Enable Forwarding Plane Manager support
+net-misc/frr:ldpd - Enable Label Distribution Protocol (LDP) support for MPLS support
 net-misc/frr:multipath - Enable multipath routes support for any number of routes
 net-misc/frr:nhrpd - Build Next Hop Resolution Protocol daemon
+net-misc/frr:ospf - Enable OSPF support on a whole
 net-misc/frr:ospfapi - Enable OSPFAPI support for client applications accessing the OSPF link state database
 net-misc/frr:pam - Add support for PAM (via sys-libs/pam) to the Quagga Virtual Terminal Interface Shell (vtysh); if the readline USE flag is disabled, this flag is ignored
 net-misc/frr:protobuf - Enable support for dev-libs/protobuf
 net-misc/frr:readline - Enable support for sys-libs/readline to provide the Quagga Virtual Terminal Interface Shell (vtysh)
+net-misc/frr:ssh - Enable support for secure remote shell access
+net-misc/frr:zeromq - Enable support for net-libs/zeromq
 net-misc/openvswitch:dpdk - Build with Data Plane Development Kit (DPDK) support
 net-misc/openvswitch:monitor - Build the Python and GUI dependent monitor applications
 net-proxy/seesaw:anycast - Enable anycast TCP protocol via communication with quagga
