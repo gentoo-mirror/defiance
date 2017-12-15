@@ -1,6 +1,6 @@
 app-admin/clockwork 3.3.0 9999: The nifty configuration managment system
 app-admin/heketi 5.0.0: RESTful based volume management framework for GlusterFS
-app-emulation/cri-o 1.0.8: Lightweight container runtime for Kubernetes
+app-emulation/cri-o 1.0.8 1.8.4: Lightweight container runtime for Kubernetes
 app-misc/ztk 9999: ZeroMQ Toolkit
 dev-db/citus 7.1.1: Scalable PostgreSQL for multi-tenant and real-time workloads
 dev-db/hypopg 1.1.0: Hypothetical Indexes for PostgreSQL
@@ -40,6 +40,5 @@ net-misc/cni-plugins 0.6.0: Some standard networking plugins, maintained by the 
 net-misc/frr 3.0.2 9999: an IP routing protocol suite for BGP, IS-IS, LDP, OSPF, PIM, and RIP
 net-misc/openvswitch 2.8.1: Production quality, multilayer virtual switch
 net-proxy/seesaw 9999: Seesaw v2 is a Linux Virtual Server (LVS) based load balancing platform
-sys-cluster/glusterfs 3.12.2: GlusterFS is a powerful network/cluster filesystem
 sys-cluster/nomad 0.7.0: The cluster manager from Hashicorp
 x11-themes/albatross 1.7.4: Desktop Suite for Xfce
