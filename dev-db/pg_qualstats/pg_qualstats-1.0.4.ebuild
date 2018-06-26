@@ -10,9 +10,9 @@ inherit eutils postgres-multi versionator
 
 SLOT="0"
 
-DESCRIPTION="Hypothetical Indexes for PostgreSQL"
-HOMEPAGE="http://dalibo.github.io/hypopg/"
-SRC_URI="https://github.com/dalibo/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
+DESCRIPTION="A Postgres extension for collecting statistics about predicate"
+HOMEPAGE="https://github.com/powa-team/pg_qualstats"
+SRC_URI="https://github.com/powa-team/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
