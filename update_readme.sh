@@ -13,7 +13,7 @@ for p in $(find -maxdepth 2 -mindepth 2 -type d -not -path ./.git/\* -not -path 
 	CATEGORY=${CATEGORY%%\/*}
 
 	if [ "${PREVIOUS_CATEGORY}" != "${CATEGORY}" ] ; then
-		echo "  - $CATEGORY" >> README.md
+		echo "  - [$CATEGORY](/$CATEGORY)" >> README.md
 	fi
 	for e in $(find $p -name \*.ebuild|sort) ; do
 		NAME=${e##*\/}
@@ -24,11 +24,11 @@ for p in $(find -maxdepth 2 -mindepth 2 -type d -not -path ./.git/\* -not -path 
 		site=$(grep HOMEPAGE $e|sed -e 's/^HOMEPAGE=//' -e 's/"//g')
 		desc=$(grep DESCRIPTION $e|sed -e 's/^DESCRIPTION=//' -e 's/"//g')
 	done
-	echo -en "    - [${NAME}]($site)" >> README.md
+	echo -en "    - [${NAME}]($site) - " >> README.md
 	for v in ${VERSIONS[@]} ; do
-		echo -en " $v" >> README.md
+		echo -en " [${v}](/${CATEGORY}/${NAME}/${NAME}-${v}.ebuild)" >> README.md
 	done
-	echo >> README.md
+	echo " -" >> README.md
 	echo "      ${desc}" >> README.md
 
 	VERSIONS=()
