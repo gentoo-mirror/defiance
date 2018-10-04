@@ -27,7 +27,7 @@ For Portage >= 2.3.8:
     - [terraform](https://www.terraform.io/) -  [0.11.8](/app-admin/terraform/terraform-0.11.8.ebuild) -
       Terraform is a tool for building, changing, and combining infrastructure safely and efficiently.
   - [app-emulation](https://packages.gentoo.org/categories/app-emulation)
-    - [cri-o](http://cri-o.io/) -  [1.11.4](/app-emulation/cri-o/cri-o-1.11.4.ebuild) -
+    - [cri-o](http://cri-o.io/) -  [1.11.6](/app-emulation/cri-o/cri-o-1.11.6.ebuild) -
       Lightweight container runtime for Kubernetes
     - [kvmtool](https://git.kernel.org/pub/scm/linux/kernel/git/will/kvmtool.git/) -  [9999](/app-emulation/kvmtool/kvmtool-9999.ebuild) -
       A lightweight tool for hosting KVM guests
@@ -93,13 +93,13 @@ For Portage >= 2.3.8:
     - [seesaw](https://github.com/google/seesaw) -  [9999](/net-proxy/seesaw/seesaw-9999.ebuild) -
       Seesaw v2 is a Linux Virtual Server (LVS) based load balancing platform
   - [net-vpn](https://packages.gentoo.org/categories/net-vpn)
-    - [strongswan](http://www.strongswan.org/) -  [5.6.3](/net-vpn/strongswan/strongswan-5.6.3.ebuild) -
+    - [strongswan](http://www.strongswan.org/) -  [5.7.1](/net-vpn/strongswan/strongswan-5.7.1.ebuild) -
       IPsec-based VPN solution focused on security and ease of use, supporting IKEv1/IKEv2 and MOBIKE
   - [sys-cluster](https://packages.gentoo.org/categories/sys-cluster)
     - [nomad](http://www.nomadproject.io) -  [0.8.0](/sys-cluster/nomad/nomad-0.8.0.ebuild) -
       The cluster manager from Hashicorp
   - [www-apps](https://packages.gentoo.org/categories/www-apps)
-    - [gitea](https://gitea.io/en-us/) -  [1.4.3](/www-apps/gitea/gitea-1.4.3.ebuild) -
+    - [gitea](https://gitea.io/en-us/) -  [1.5.1](/www-apps/gitea/gitea-1.5.1.ebuild) -
       A painless self-hosted Git service, written in Go
   - [www-servers](https://packages.gentoo.org/categories/www-servers)
     - [nginx](https://nginx.org) -  [1.14.0](/www-servers/nginx/nginx-1.14.0.ebuild) [1.15.5](/www-servers/nginx/nginx-1.15.5.ebuild) -
