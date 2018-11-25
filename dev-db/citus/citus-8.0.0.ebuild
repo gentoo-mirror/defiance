@@ -3,18 +3,22 @@
 
 EAPI=6
 
-POSTGRES_COMPAT=( 10 )
+POSTGRES_COMPAT=( 10 11 )
 POSTGRES_USEDEP="server"
 
-inherit cmake-multilib eutils postgres-multi versionator git-r3
+inherit autotools eutils postgres-multi versionator
 
-DESCRIPTION="A time-series database optimized for fast ingest and complex queries"
-HOMEPAGE="http://www.timescale.com/"
-EGIT_REPO_URI="https://github.com/timescale/${PN}"
-
-LICENSE="Apache-2.0"
 SLOT="0"
+
+DESCRIPTION="Scalable PostgreSQL for multi-tenant and real-time workloads"
+HOMEPAGE="https://www.citusdata.com/"
+SRC_URI="https://github.com/citusdata/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+
+LICENSE="AGPL-3"
+SLOT="0"
+KEYWORDS="~amd64 ~x86"
 IUSE="static-libs"
+REQUIRED_USE="${POSTGRES_REQ_USE}"
 
 DEPEND="
 	${POSTGRES_DEP}
@@ -23,10 +27,11 @@ RDEPEND="${DEPEND}"
 
 src_prepare() {
 	eapply_user
+	eautoreconf
 	postgres-multi_src_prepare
 }
 src_configure() {
-	postgres-multi_foreach cmake-utils_src_configure
+	postgres-multi_foreach econf
 }
 
 src_compile() {

@@ -27,14 +27,14 @@ For Portage >= 2.3.8:
     - [terraform](https://www.terraform.io/) -  [0.11.10](/app-admin/terraform/terraform-0.11.10.ebuild) -
       Terraform is a tool for building, changing, and combining infrastructure safely and efficiently.
   - [app-emulation](https://packages.gentoo.org/categories/app-emulation)
-    - [cri-o](http://cri-o.io/) -  [1.12.0](/app-emulation/cri-o/cri-o-1.12.0.ebuild) -
+    - [cri-o](http://cri-o.io/) -  [1.12.1](/app-emulation/cri-o/cri-o-1.12.1.ebuild) -
       Lightweight container runtime for Kubernetes
     - [kvmtool](https://git.kernel.org/pub/scm/linux/kernel/git/will/kvmtool.git/) -  [9999](/app-emulation/kvmtool/kvmtool-9999.ebuild) -
       A lightweight tool for hosting KVM guests
     - [runv](https://github.com/hyperhq/runv) -  [1.0.0](/app-emulation/runv/runv-1.0.0.ebuild) -
       Hypervisor-based Runtime for OCI
   - [dev-db](https://packages.gentoo.org/categories/dev-db)
-    - [citus](https://www.citusdata.com/) -  [7.5.1](/dev-db/citus/citus-7.5.1.ebuild) -
+    - [citus](https://www.citusdata.com/) -  [8.0.0](/dev-db/citus/citus-8.0.0.ebuild) -
       Scalable PostgreSQL for multi-tenant and real-time workloads
     - [hypopg](http://hypopg.github.io/hypopg/) -  [1.1.2](/dev-db/hypopg/hypopg-1.1.2.ebuild) -
       Hypothetical Indexes for PostgreSQL
@@ -54,7 +54,7 @@ For Portage >= 2.3.8:
       PostgreSQL Workload Analyzer
     - [powa-web](http://powa.readthedocs.io/en/latest/powa-web/index.html) -  [3.1.4](/dev-db/powa-web/powa-web-3.1.4.ebuild) -
       The PostgreSQL Workload Analyzer web frontend
-    - [timescaledb](http://www.timescale.com/) -  [1.0.0](/dev-db/timescaledb/timescaledb-1.0.0.ebuild) [9999](/dev-db/timescaledb/timescaledb-9999.ebuild) -
+    - [timescaledb](http://www.timescale.com/) -  [1.0.0](/dev-db/timescaledb/timescaledb-1.0.0.ebuild) -
       A time-series database optimized for fast ingest and complex queries
   - [dev-libs](https://packages.gentoo.org/categories/dev-libs)
     - [ctap](https://github.com/jhunt/ctap/) -  [2.0.0](/dev-libs/ctap/ctap-2.0.0.ebuild) -
@@ -102,7 +102,7 @@ For Portage >= 2.3.8:
     - [gitea](https://gitea.io/en-us/) -  [1.5.1](/www-apps/gitea/gitea-1.5.1.ebuild) -
       A painless self-hosted Git service, written in Go
   - [www-servers](https://packages.gentoo.org/categories/www-servers)
-    - [nginx](https://nginx.org) -  [1.14.0](/www-servers/nginx/nginx-1.14.0.ebuild) [1.15.5](/www-servers/nginx/nginx-1.15.5.ebuild) -
+    - [nginx](https://nginx.org) -  [1.14.1](/www-servers/nginx/nginx-1.14.1.ebuild) [1.15.6](/www-servers/nginx/nginx-1.15.6.ebuild) -
       Robust, small and high performance http and reverse proxy server
   - [x11-themes](https://packages.gentoo.org/categories/x11-themes)
     - [albatross](http://shimmerproject.org/projects/albatross/) -  [1.7.4](/x11-themes/albatross/albatross-1.7.4.ebuild) -
