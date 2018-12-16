@@ -1,4 +1,4 @@
-app-admin/terraform 0.11.10: Terraform is a tool for building, changing, and combining infrastructure safely and efficiently.
+app-admin/terraform 0.11.11: Terraform is a tool for building, changing, and combining infrastructure safely and efficiently.
 dev-libs/libspooky 1.0.0: Spooky hash lib
 dev-perl/Authen-OATH 1.0.0: OATH One Time Passwords
 dev-perl/Directory-Scratch 0.18: self-cleaning scratch space for tests
