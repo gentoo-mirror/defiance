@@ -54,7 +54,7 @@ For Portage >= 2.3.8:
       PostgreSQL Workload Analyzer
     - [powa-web](http://powa.readthedocs.io/en/latest/powa-web/index.html) -  [3.1.4](/dev-db/powa-web/powa-web-3.1.4.ebuild) -
       The PostgreSQL Workload Analyzer web frontend
-    - [timescaledb](http://www.timescale.com/) -  [1.1.0](/dev-db/timescaledb/timescaledb-1.1.0.ebuild) -
+    - [timescaledb](http://www.timescale.com/) -  [1.1.1](/dev-db/timescaledb/timescaledb-1.1.1.ebuild) -
       A time-series database optimized for fast ingest and complex queries
   - [dev-libs](https://packages.gentoo.org/categories/dev-libs)
     - [ctap](https://github.com/jhunt/ctap/) -  [2.0.0](/dev-libs/ctap/ctap-2.0.0.ebuild) -
@@ -93,7 +93,7 @@ For Portage >= 2.3.8:
     - [seesaw](https://github.com/google/seesaw) -  [9999](/net-proxy/seesaw/seesaw-9999.ebuild) -
       Seesaw v2 is a Linux Virtual Server (LVS) based load balancing platform
   - [net-vpn](https://packages.gentoo.org/categories/net-vpn)
-    - [strongswan](http://www.strongswan.org/) -  [5.7.1](/net-vpn/strongswan/strongswan-5.7.1.ebuild) -
+    - [strongswan](http://www.strongswan.org/) -  [5.7.2](/net-vpn/strongswan/strongswan-5.7.2.ebuild) -
       IPsec-based VPN solution focused on security and ease of use, supporting IKEv1/IKEv2 and MOBIKE
   - [sys-cluster](https://packages.gentoo.org/categories/sys-cluster)
     - [kubeadm](https://github.com/kubernetes/kubernetes https://kubernetes.io) -  [1.13.1](/sys-cluster/kubeadm/kubeadm-1.13.1.ebuild) -
@@ -103,7 +103,7 @@ For Portage >= 2.3.8:
     - [nomad](http://www.nomadproject.io) -  [0.8.0](/sys-cluster/nomad/nomad-0.8.0.ebuild) -
       The cluster manager from Hashicorp
   - [www-apps](https://packages.gentoo.org/categories/www-apps)
-    - [gitea](https://gitea.io/en-us/) -  [1.5.1](/www-apps/gitea/gitea-1.5.1.ebuild) -
+    - [gitea](https://gitea.io/en-us/) -  [1.6.2](/www-apps/gitea/gitea-1.6.2.ebuild) -
       A painless self-hosted Git service, written in Go
   - [www-servers](https://packages.gentoo.org/categories/www-servers)
     - [nginx](https://nginx.org) -  [1.14.1](/www-servers/nginx/nginx-1.14.1.ebuild) [1.15.7](/www-servers/nginx/nginx-1.15.7.ebuild) -
