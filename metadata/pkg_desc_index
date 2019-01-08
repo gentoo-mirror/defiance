@@ -1,7 +1,5 @@
-app-admin/terraform 0.11.11: Terraform is a tool for building, changing, and combining infrastructure safely and efficiently.
 dev-libs/libspooky 1.0.0: Spooky hash lib
 dev-perl/Authen-OATH 1.0.0: OATH One Time Passwords
 dev-perl/Directory-Scratch 0.18: self-cleaning scratch space for tests
-dev-util/packer 1.3.2: Packer is a tool for creating identical machine images for multiple platforms
 net-libs/rtrlib 0.6.3: An open-source C implementation of the RPKI/Router Protocol client
 x11-themes/albatross 1.7.4: Desktop Suite for Xfce
