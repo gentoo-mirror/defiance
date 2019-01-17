@@ -3,3 +3,11 @@
 # * generated automatically using pmaint *
 
 net-libs/rtrlib:ssh - Enable SSH support
+net-nds/openldap:experimental - Enable experimental backend options
+net-nds/openldap:kinit - Enable support for kerberos init
+net-nds/openldap:minimal - Build libraries & userspace tools only. Does not install any server code
+net-nds/openldap:odbc - Enable ODBC and SQL backend options
+net-nds/openldap:overlays - Enable contributed OpenLDAP overlays
+net-nds/openldap:pbkdf2 - Enable support for pbkdf2 passwords
+net-nds/openldap:sha2 - Enable support for pw-sha2 password hashes
+net-nds/openldap:smbkrb5passwd - Enable overlay for syncing ldap, unix and lanman passwords

@@ -2,4 +2,5 @@ dev-libs/libspooky 1.0.0: Spooky hash lib
 dev-perl/Authen-OATH 1.0.0: OATH One Time Passwords
 dev-perl/Directory-Scratch 0.18: self-cleaning scratch space for tests
 net-libs/rtrlib 0.6.3: An open-source C implementation of the RPKI/Router Protocol client
+net-nds/openldap 2.4.47: LDAP suite of application and development tools
 x11-themes/albatross 1.7.4: Desktop Suite for Xfce
