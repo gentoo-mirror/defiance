@@ -27,7 +27,7 @@ For Portage >= 2.3.8:
   - [app-emulation](https://packages.gentoo.org/categories/app-emulation)
     - [cri-o](http://cri-o.io/) -  [1.14.0](/app-emulation/cri-o/cri-o-1.14.0.ebuild) -
       Lightweight container runtime for Kubernetes
-    - [crun](https://github.com/giuseppe/crun) -  [0.4](/app-emulation/crun/crun-0.4.ebuild) [0.5](/app-emulation/crun/crun-0.5.ebuild) -
+    - [crun](https://github.com/giuseppe/crun) -  [0.4](/app-emulation/crun/crun-0.4.ebuild) [0.5](/app-emulation/crun/crun-0.5.ebuild) [0.6](/app-emulation/crun/crun-0.6.ebuild) -
       A fast and low-memory footprint OCI Container Runtime fully written in C
     - [kvmtool](https://git.kernel.org/pub/scm/linux/kernel/git/will/kvmtool.git/) -  [9999](/app-emulation/kvmtool/kvmtool-9999.ebuild) -
       A lightweight tool for hosting KVM guests
@@ -66,7 +66,7 @@ For Portage >= 2.3.8:
     - [libspooky](https://github.com/graytshirt/libspooky) -  [1.0.0](/dev-libs/libspooky/libspooky-1.0.0.ebuild) -
       Spooky hash lib
   - [dev-util](https://packages.gentoo.org/categories/dev-util)
-    - [ostree](https://ostree.readthedocs.io/en/latest/) -  [2019.1](/dev-util/ostree/ostree-2019.1.ebuild) -
+    - [ostree](https://ostree.readthedocs.io/en/latest/) -  [2019.1](/dev-util/ostree/ostree-2019.1.ebuild) [2019.2](/dev-util/ostree/ostree-2019.2.ebuild) -
       Operating system and container binary deployment and upgrades
   - [net-dns](https://packages.gentoo.org/categories/net-dns)
     - [bind-dyndb-ldap](https://fedorahosted.org/bind-dyndb-ldap/) -  [11.1](/net-dns/bind-dyndb-ldap/bind-dyndb-ldap-11.1.ebuild) [9999](/net-dns/bind-dyndb-ldap/bind-dyndb-ldap-9999.ebuild) -
@@ -94,7 +94,7 @@ For Portage >= 2.3.8:
     - [seesaw](https://github.com/google/seesaw) -  [9999](/net-proxy/seesaw/seesaw-9999.ebuild) -
       Seesaw v2 is a Linux Virtual Server (LVS) based load balancing platform
   - [net-vpn](https://packages.gentoo.org/categories/net-vpn)
-    - [strongswan](http://www.strongswan.org/) -  [5.7.2](/net-vpn/strongswan/strongswan-5.7.2.ebuild) -
+    - [strongswan](http://www.strongswan.org/) -  [5.7.2](/net-vpn/strongswan/strongswan-5.7.2.ebuild) [5.8.0](/net-vpn/strongswan/strongswan-5.8.0.ebuild) -
       IPsec-based VPN solution focused on security and ease of use, supporting IKEv1/IKEv2 and MOBIKE
   - [sys-cluster](https://packages.gentoo.org/categories/sys-cluster)
     - [nomad](http://www.nomadproject.io) -  [0.8.0](/sys-cluster/nomad/nomad-0.8.0.ebuild) -
