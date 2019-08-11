@@ -2,7 +2,41 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-admin/clockwork:clockd - Install the master daemon
+app-admin/clockwork:meshd - Install the clockwork push daemon
+app-admin/clockwork:vim-syntax - Install vim syntax for clockwork configuration and recipies
+app-emulation/cri-o:btrfs - Include Btrfs support sys-fs/btrfs-progs
+app-emulation/cri-o:device-mapper - Include device-mapper support sys-fs/lvm2
+app-emulation/cri-o:ostree - Include OSTree support dev-util/ostree
+app-emulation/runv:libvirt - Enable support for KVM via libvirt
+app-emulation/runv:xen - Enable support for the Xen Hypervisor
+dev-util/ostree:gjs - Enable javascript tests
+dev-util/ostree:grub - Enable grub configuration building
+dev-util/ostree:soup - Use libsoup for networking
 net-libs/rtrlib:ssh - Enable SSH support
+net-misc/bird:client - Build the ncurses/readline full featured CLI
+net-misc/bird:mpls - Enable support for multiprotocol label switching (MPLS)
+net-misc/bird:ssh - Enabled RPKI support via SSH using net-libs/libssh
+net-misc/frr:bfdd - Enable the Bi-Directional Forwarding detection daemon
+net-misc/frr:datacenter - Enable Cumulus Switch and Data Center Extensions
+net-misc/frr:eigrpd - Enable support for the EIGRP protocol Daemon
+net-misc/frr:fpm - Enable Forwarding Plane Manager support
+net-misc/frr:ldpd - Enable Label Distribution Protocol (LDP) support for MPLS support
+net-misc/frr:multipath - Enable multipath routes support for any number of routes
+net-misc/frr:nhrpd - Build Next Hop Resolution Protocol daemon
+net-misc/frr:ospf - Enable OSPF support on a whole including the API
+net-misc/frr:pam - Add support for PAM (via sys-libs/pam) to the Quagga Virtual Terminal Interface Shell (vtysh); if the readline USE flag is disabled, this flag is ignored
+net-misc/frr:pbrd - Enable the policy based routing daemon
+net-misc/frr:protobuf - Enable support for dev-libs/protobuf
+net-misc/frr:readline - Enable support for sys-libs/readline to provide the Quagga Virtual Terminal Interface Shell (vtysh)
+net-misc/frr:realms - Enable realms support
+net-misc/frr:rpki - Enable support for Resource Public Key Infrastructure (RPKI) using the net-libs/rtrlib library rpki is primarily used to validate routes.
+net-misc/frr:sharpd - Enable Sharp support
+net-misc/frr:ssh - Enable support for secure remote shell access
+net-misc/frr:staticd - Enable the static route daemon
+net-misc/frr:zeromq - Enable support for net-libs/zeromq
+net-misc/openvswitch:dpdk - Build with Data Plane Development Kit (DPDK) support
+net-misc/openvswitch:monitor - Build the Python and GUI dependent monitor applications
 net-nds/openldap:experimental - Enable experimental backend options
 net-nds/openldap:kinit - Enable support for kerberos init
 net-nds/openldap:minimal - Build libraries & userspace tools only. Does not install any server code
@@ -11,3 +45,39 @@ net-nds/openldap:overlays - Enable contributed OpenLDAP overlays
 net-nds/openldap:pbkdf2 - Enable support for pbkdf2 passwords
 net-nds/openldap:sha2 - Enable support for pw-sha2 password hashes
 net-nds/openldap:smbkrb5passwd - Enable overlay for syncing ldap, unix and lanman passwords
+net-proxy/seesaw:anycast - Enable anycast TCP protocol via communication with quagga
+net-vpn/strongswan:constraints - Enable advanced X.509 constraint checking plugin
+net-vpn/strongswan:dhcp - Enable server support for querying virtual IP addresses for clients from a DHCP server. (IKEv2 only)
+net-vpn/strongswan:eap - Enable support for the different EAP modules that are supported
+net-vpn/strongswan:farp - Enable faking of ARP responses for virtual IP addresses assigned to clients (IKEv2 only)
+net-vpn/strongswan:gcrypt - Enable dev-libs/libgcrypt plugin which provides 3DES, AES, Blowfish, Camellia, CAST, DES, Serpent and Twofish ciphers along with MD4, MD5 and SHA1/2 hash algorithms, RSA and DH groups 1,2,5,14-18 and 22-24(4.4+). Also includes a software random number generator.
+net-vpn/strongswan:non-root - Force IKEv1/IKEv2 daemons to normal user privileges. This might impose some restrictions mainly to the IKEv1 daemon. Disable only if you really require superuser privileges.
+net-vpn/strongswan:openssl - Enable dev-libs/openssl plugin which is required for Elliptic Curve Cryptography (DH groups 19-21,25,26) and ECDSA. Also provides 3DES, AES, Blowfish, Camellia, CAST, DES, IDEA and RC5 ciphers along with MD2, MD4, MD5 and SHA1/2 hash algorithms, RSA and DH groups 1,2,5,14-18 and 22-24(4.4+) dev-libs/openssl has to be compiled with USE="-bindist".
+net-vpn/strongswan:pkcs11 - Enable pkcs11 support
+net-vpn/strongswan:strongswan_plugins_blowfish - Enable support for the blowfish plugin
+net-vpn/strongswan:strongswan_plugins_ccm - Enable support for the ccm plugin
+net-vpn/strongswan:strongswan_plugins_ctr - Enable support for the ctr plugin
+net-vpn/strongswan:strongswan_plugins_gcm - Enable support for the gcm plugin
+net-vpn/strongswan:strongswan_plugins_ha - Enable support for the ha plugin
+net-vpn/strongswan:strongswan_plugins_ipseckey - Enable support for the ipseckey plugin
+net-vpn/strongswan:strongswan_plugins_led - Enable support for the led plugin
+net-vpn/strongswan:strongswan_plugins_lookip - Enable support for the lookip plugin
+net-vpn/strongswan:strongswan_plugins_ntru - Enable support for the ntru plugin
+net-vpn/strongswan:strongswan_plugins_padlock - Enable support for the padlock plugin
+net-vpn/strongswan:strongswan_plugins_rdrand - Enable support for the rdrand plugin
+net-vpn/strongswan:strongswan_plugins_systime-fix - Enable support for the systime-fix plugin
+net-vpn/strongswan:strongswan_plugins_unbound - Enable support for the unbound plugin
+net-vpn/strongswan:strongswan_plugins_unity - Enable support for the unity plugin
+net-vpn/strongswan:strongswan_plugins_vici - Enable support for the vici plugin
+net-vpn/strongswan:strongswan_plugins_whitelist - Enable support for the whitelist plugin
+sys-cluster/nomad:lxc - Use LXC as a container manager
+www-servers/nginx:aio - Enables file AIO support
+www-servers/nginx:http - Enable HTTP core support
+www-servers/nginx:http-cache - Enable HTTP cache support
+www-servers/nginx:http2 - Enable HTTP2 module support
+www-servers/nginx:libatomic - Use libatomic instead of builtin atomic operations
+www-servers/nginx:luajit - Use dev-lang/luajit instead of dev-lang/lua for lua support when building the lua http module.
+www-servers/nginx:nginx_modules_http_auth_spnego - Enable Kerberos/SPNEGO authentication
+www-servers/nginx:pcre-jit - Enable JIT for pcre
+www-servers/nginx:rtmp - NGINX-based Media Streaming Server
+www-servers/nginx:ssl - Enable HTTPS module for http. Enable SSL/TLS support for POP3/IMAP/SMTP for mail.

@@ -1,6 +1,53 @@
+app-admin/clockwork 3.3.2: The nifty configuration managment system
+app-admin/heketi 8.0.0 9.0.0: RESTful based volume management framework for GlusterFS
+app-emulation/cri-o 1.14.0: Lightweight container runtime for Kubernetes
+app-emulation/crun 0.4 0.5 0.6: A fast and low-memory footprint OCI Container Runtime fully written in C
+app-emulation/kvmtool 9999: A lightweight tool for hosting KVM guests
+app-emulation/runv 1.0.0: Hypervisor-based Runtime for OCI
+dev-db/citus 8.0.0: Scalable PostgreSQL for multi-tenant and real-time workloads
+dev-db/hypopg 1.1.2: Hypothetical Indexes for PostgreSQL
+dev-db/pg_jobmon 1.3.3: PostgreSQL Extension for logging and monitoring automated jobs
+dev-db/pg_partman 3.1.1: Postgres time and serial partitioner
+dev-db/pg_pathman 1.4.9: Partitioning tool for PostgreSQL
+dev-db/pg_qualstats 1.0.5: A Postgres extension for collecting statistics about predicate
+dev-db/pg_stat_kcache 2.1.1: Gather statistics about disk access and CPU consumption done by backends
+dev-db/postgresql-hll 2.11: PostgreSQL extension adding HyperLogLog data structures as a native data type
+dev-db/powa 3.1.2: PostgreSQL Workload Analyzer
+dev-db/powa-web 3.1.4: The PostgreSQL Workload Analyzer web frontend
+dev-db/timescaledb 1.3.0: A time-series database optimized for fast ingest and complex queries
+dev-libs/ctap 2.0.0: Test Anything Protocol (tap) for C
+dev-libs/intel-ipsec-mb 0.49: Multi-Buffer Crypto for IPsec Library
+dev-libs/libmill 1.18: Go-style concurrency for C
 dev-libs/libspooky 1.0.0: Spooky hash lib
 dev-perl/Authen-OATH 1.0.0: OATH One Time Passwords
+dev-perl/Authen-SASL-XS 1.00: Code to glue Perl SASL to Cyrus SASL
+dev-perl/Dancer 1.3202: A minimal-effort oriented web application framework
 dev-perl/Directory-Scratch 0.18: self-cleaning scratch space for tests
+dev-perl/ExtUtils-ModuleMaker 0.56: Better than h2xs for creating modules
+dev-perl/File-Save-Home 0.09: Place file safely under user home directory
+dev-perl/Gazelle 0.46: a Preforked Plack Handler for performance freaks
+dev-perl/Git-Repository 1.320: Perl interface to Git repositories
+dev-perl/Krb5 1.9: Perl extension for Kerberos 5
+dev-perl/Net-GitHub 0.89: Perl Interface for github.com
+dev-perl/Net-OAuth2 0.63: Perl OAuth 2.0 implementation
+dev-perl/Net-WebSocket-Server 0.003004: A straightforward Perl WebSocket server with minimal dependencies
+dev-perl/Protocol-WebSocket 0.24: WebSocket protocol
+dev-perl/Redis-hiredis 0.11.0: interact with Redis using the hiredis client
+dev-perl/String-PerlIdentifier 0.06: Generate a random name for a Perl variable
+dev-perl/System-Command 1.118: Object for running system commands
+dev-util/ostree 2019.1 2019.2: Operating system and container binary deployment and upgrades
+net-dns/bind-dyndb-ldap 11.1 9999: Bind DynDB LDAP backend (replacement for sdb-ldap and dlz)
+net-libs/dpdk 17.11.3 18.05: A set of libraries and drivers for fast packet processing
+net-libs/libcurve 9999: An encryption and authentication library for ZeroMQ applications
 net-libs/rtrlib 0.6.3: An open-source C implementation of the RPKI/Router Protocol client
-net-nds/openldap 2.4.47: LDAP suite of application and development tools
+net-misc/bird 2.0.1: A routing daemon implementing OSPF, RIPv2 & BGP for IPv4 or IPv6
+net-misc/cni-plugins 0.7.2: Some standard networking plugins, maintained by the CNI team
+net-misc/frr 6.0: an IP routing protocol suite for BGP, IS-IS, LDP, OSPF, PIM, and RIP
+net-misc/openvswitch 2.9.2: Production quality, multilayer virtual switch
+net-nds/openldap 2.4.47 2.4.47-r1: LDAP suite of application and development tools
+net-proxy/seesaw 9999: Seesaw v2 is a Linux Virtual Server (LVS) based load balancing platform
+net-vpn/strongswan 5.7.2 5.8.0: IPsec-based VPN solution focused on security and ease of use, supporting IKEv1/IKEv2 and MOBIKE
+sys-cluster/nomad 0.8.0: The cluster manager from Hashicorp
+www-apps/gitea 1.7.0: A painless self-hosted Git service, written in Go
+www-servers/nginx 1.14.1 1.15.9 1.17.0 1.17.1: Robust, small and high performance http and reverse proxy server
 x11-themes/albatross 1.7.4: Desktop Suite for Xfce
