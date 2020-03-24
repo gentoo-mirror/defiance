@@ -36,7 +36,7 @@ For Portage >= 2.3.8:
   - [dev-db](https://packages.gentoo.org/categories/dev-db)
     - [citus](https://www.citusdata.com/) -  [9.0.2](/dev-db/citus/citus-9.0.2.ebuild) -
       Scalable PostgreSQL for multi-tenant and real-time workloads
-    - [hypopg](http://hypopg.github.io/hypopg/) -  [1.1.2](/dev-db/hypopg/hypopg-1.1.2.ebuild) -
+    - [hypopg](http://hypopg.github.io/hypopg/) -  [1.1.3](/dev-db/hypopg/hypopg-1.1.3.ebuild) -
       Hypothetical Indexes for PostgreSQL
     - [pg_jobmon](https://github.com/omniti-labs/pg_jobmon) -  [1.3.3](/dev-db/pg_jobmon/pg_jobmon-1.3.3.ebuild) -
       PostgreSQL Extension for logging and monitoring automated jobs
@@ -44,15 +44,15 @@ For Portage >= 2.3.8:
       Postgres time and serial partitioner
     - [pg_pathman](https://github.com/postgrespro/pg_pathman) -  [1.4.9](/dev-db/pg_pathman/pg_pathman-1.4.9.ebuild) -
       Partitioning tool for PostgreSQL
-    - [pg_qualstats](https://github.com/powa-team/pg_qualstats) -  [1.0.5](/dev-db/pg_qualstats/pg_qualstats-1.0.5.ebuild) -
+    - [pg_qualstats](https://github.com/powa-team/pg_qualstats) -  [1.0.9](/dev-db/pg_qualstats/pg_qualstats-1.0.9.ebuild) -
       A Postgres extension for collecting statistics about predicate
     - [pg_stat_kcache](https://github.com/powa-team/pg_stat_kcache) -  [2.1.1](/dev-db/pg_stat_kcache/pg_stat_kcache-2.1.1.ebuild) -
       Gather statistics about disk access and CPU consumption done by backends
     - [postgresql-hll](https://github.com/citusdata/postgresql-hll) -  [2.11](/dev-db/postgresql-hll/postgresql-hll-2.11.ebuild) -
       PostgreSQL extension adding HyperLogLog data structures as a native data type
-    - [powa](http://powa-team.github.io/powa/) -  [3.1.2](/dev-db/powa/powa-3.1.2.ebuild) -
+    - [powa](http://powa-team.github.io/powa/) -  [3.2.0](/dev-db/powa/powa-3.2.0.ebuild) -
       PostgreSQL Workload Analyzer
-    - [powa-web](http://powa.readthedocs.io/en/latest/powa-web/index.html) -  [3.1.4](/dev-db/powa-web/powa-web-3.1.4.ebuild) -
+    - [powa-web](http://powa.readthedocs.io/en/latest/powa-web/index.html) -  [3.2.1](/dev-db/powa-web/powa-web-3.2.1.ebuild) -
       The PostgreSQL Workload Analyzer web frontend
     - [timescaledb](http://www.timescale.com/) -  [1.3.0](/dev-db/timescaledb/timescaledb-1.3.0.ebuild) -
       A time-series database optimized for fast ingest and complex queries
