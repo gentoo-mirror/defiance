@@ -8,6 +8,8 @@ app-admin/clockwork:vim-syntax - Install vim syntax for clockwork configuration 
 app-emulation/cri-o:btrfs - Include Btrfs support sys-fs/btrfs-progs
 app-emulation/cri-o:device-mapper - Include device-mapper support sys-fs/lvm2
 app-emulation/cri-o:ostree - Include OSTree support dev-util/ostree
+app-emulation/crun:bpf - Enable in Kernel, eBPF (enhanced Berkley Packet Filter) support for managing device controllers.
+app-emulation/crun:criu - Enable pausing and check pointing containers
 app-emulation/runv:libvirt - Enable support for KVM via libvirt
 app-emulation/runv:xen - Enable support for the Xen Hypervisor
 dev-util/ostree:gjs - Enable javascript tests
