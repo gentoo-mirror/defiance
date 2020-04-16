@@ -50,4 +50,5 @@ net-vpn/strongswan 5.7.2 5.8.0: IPsec-based VPN solution focused on security and
 sys-cluster/nomad 0.8.0: The cluster manager from Hashicorp
 www-apps/gitea 1.7.0: A painless self-hosted Git service, written in Go
 www-servers/nginx 1.14.1 1.15.9 1.17.0 1.17.1: Robust, small and high performance http and reverse proxy server
+x11-libs/libva-intel-media-driver 18.3.0 18.4.1 9999: Intel Media Driver for VAAPI (iHD)
 x11-themes/albatross 1.7.4: Desktop Suite for Xfce
