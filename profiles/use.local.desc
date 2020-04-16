@@ -83,3 +83,5 @@ www-servers/nginx:nginx_modules_http_auth_spnego - Enable Kerberos/SPNEGO authen
 www-servers/nginx:pcre-jit - Enable JIT for pcre
 www-servers/nginx:rtmp - NGINX-based Media Streaming Server
 www-servers/nginx:ssl - Enable HTTPS module for http. Enable SSL/TLS support for POP3/IMAP/SMTP for mail.
+x11-libs/libva:drm - Enables VA/DRM API support.
+x11-libs/libva:utils - Install VA-API utility programs.
