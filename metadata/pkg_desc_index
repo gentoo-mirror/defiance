@@ -36,7 +36,7 @@ dev-perl/Redis-hiredis 0.11.0: interact with Redis using the hiredis client
 dev-perl/String-PerlIdentifier 0.06: Generate a random name for a Perl variable
 dev-perl/System-Command 1.118: Object for running system commands
 dev-util/ostree 2019.1 2019.2: Operating system and container binary deployment and upgrades
-media-libs/gmmlib 19.3.4 19.4.1 20.1.1 9999: Intel Graphics Memory Management Library
+media-libs/gmmlib 20.1.1 9999: Intel Graphics Memory Management Library
 net-dns/bind-dyndb-ldap 11.1 9999: Bind DynDB LDAP backend (replacement for sdb-ldap and dlz)
 net-libs/dpdk 17.11.3 18.05: A set of libraries and drivers for fast packet processing
 net-libs/libcurve 9999: An encryption and authentication library for ZeroMQ applications
@@ -51,6 +51,6 @@ net-vpn/strongswan 5.7.2 5.8.0: IPsec-based VPN solution focused on security and
 sys-cluster/nomad 0.8.0: The cluster manager from Hashicorp
 www-apps/gitea 1.7.0: A painless self-hosted Git service, written in Go
 www-servers/nginx 1.14.1 1.15.9 1.17.0 1.17.1: Robust, small and high performance http and reverse proxy server
-x11-libs/libva 2.5.0-r1 2.6.1 2.7.0 9999: Video Acceleration (VA) API for Linux
-x11-libs/libva-intel-media-driver 18.3.0 18.4.1 20.1.1 9999: Intel Media Driver for VAAPI (iHD)
+x11-libs/libva 2.7.0 9999: Video Acceleration (VA) API for Linux
+x11-libs/libva-intel-media-driver 20.1.1 9999: Intel Media Driver for VAAPI (iHD)
 x11-themes/albatross 1.7.4: Desktop Suite for Xfce
