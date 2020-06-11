@@ -36,7 +36,7 @@ dev-perl/Redis-hiredis 0.11.0: interact with Redis using the hiredis client
 dev-perl/String-PerlIdentifier 0.06: Generate a random name for a Perl variable
 dev-perl/System-Command 1.118: Object for running system commands
 dev-util/ostree 2019.1 2019.2: Operating system and container binary deployment and upgrades
-dev-util/packer 1.5.5: A tool to create identical machine images for multiple platforms
+dev-util/packer 1.6.0: A tool to create identical machine images for multiple platforms
 media-libs/gmmlib 20.1.1 9999: Intel Graphics Memory Management Library
 net-dns/bind-dyndb-ldap 11.1 9999: Bind DynDB LDAP backend (replacement for sdb-ldap and dlz)
 net-libs/dpdk 17.11.3 18.05: A set of libraries and drivers for fast packet processing
