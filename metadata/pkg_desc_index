@@ -1,7 +1,7 @@
 app-admin/clockwork 3.3.2: The nifty configuration managment system
 app-admin/heketi 8.0.0 9.0.0: RESTful based volume management framework for GlusterFS
 app-emulation/cri-o 1.14.0: Lightweight container runtime for Kubernetes
-app-emulation/crun 0.13: A fast and low-memory footprint OCI Container Runtime fully written in C
+app-emulation/crun 0.14: A fast and low-memory footprint OCI Container Runtime fully written in C
 app-emulation/kvmtool 9999: A lightweight tool for hosting KVM guests
 app-emulation/runv 1.0.0: Hypervisor-based Runtime for OCI
 dev-db/citus 9.2.4: Scalable PostgreSQL for multi-tenant and real-time workloads
