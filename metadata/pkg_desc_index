@@ -4,7 +4,7 @@ app-emulation/cri-o 1.14.0: Lightweight container runtime for Kubernetes
 app-emulation/crun 0.14.1: A fast and low-memory footprint OCI Container Runtime fully written in C
 app-emulation/kvmtool 9999: A lightweight tool for hosting KVM guests
 app-emulation/runv 1.0.0: Hypervisor-based Runtime for OCI
-dev-db/citus 9.4.2: Scalable PostgreSQL for multi-tenant and real-time workloads
+dev-db/citus 9.5.0: Scalable PostgreSQL for multi-tenant and real-time workloads
 dev-db/cstore_fdw 1.7.0: Columnar store for analytics with Postgres
 dev-db/git_fdw 9999: A PostgreSQL foreign data wrapper for git
 dev-db/hypopg 1.1.4: Hypothetical Indexes for PostgreSQL
