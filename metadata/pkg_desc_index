@@ -18,7 +18,7 @@ dev-db/postgresql-hll 2.15: PostgreSQL extension adding HyperLogLog data structu
 dev-db/powa 4.0.1: PostgreSQL Workload Analyzer
 dev-db/powa-web 4.0.2: The PostgreSQL Workload Analyzer web frontend
 dev-db/redis_fdw 9999: A PostgreSQL foreign data wrapper for Redis
-dev-db/timescaledb 1.7.2 1.7.4: A time-series database optimized for fast ingest and complex queries
+dev-db/timescaledb 2.0.0: A time-series database optimized for fast ingest and complex queries
 dev-libs/ctap 2.0.0: Test Anything Protocol (tap) for C
 dev-libs/intel-ipsec-mb 0.49: Multi-Buffer Crypto for IPsec Library
 dev-libs/libmill 1.18: Go-style concurrency for C
