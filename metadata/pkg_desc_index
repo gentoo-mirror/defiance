@@ -1,9 +1,6 @@
 app-admin/clockwork 3.3.2: The nifty configuration managment system
 app-admin/heketi 8.0.0 9.0.0: RESTful based volume management framework for GlusterFS
-app-emulation/cri-o 1.14.0: Lightweight container runtime for Kubernetes
 app-emulation/kvmtool 9999: A lightweight tool for hosting KVM guests
-app-emulation/runv 1.0.0: Hypervisor-based Runtime for OCI
-dev-db/citus 9.5.0: Scalable PostgreSQL for multi-tenant and real-time workloads
 dev-db/cstore_fdw 1.7.0: Columnar store for analytics with Postgres
 dev-db/git_fdw 9999: A PostgreSQL foreign data wrapper for git
 dev-db/hypopg 1.1.4: Hypothetical Indexes for PostgreSQL
@@ -15,6 +12,7 @@ dev-db/pg_qualstats 2.0.2: A Postgres extension for collecting statistics about 
 dev-db/pg_stat_kcache 2.1.3: Gather statistics about disk access and CPU consumption done by backends
 dev-db/postgresql-hll 2.15: PostgreSQL extension adding HyperLogLog data structures as a native data type
 dev-db/powa 4.0.1: PostgreSQL Workload Analyzer
+dev-db/powa-web 4.1.2: The PostgreSQL Workload Analyzer web frontend
 dev-db/redis_fdw 9999: A PostgreSQL foreign data wrapper for Redis
 dev-libs/ctap 2.0.0: Test Anything Protocol (tap) for C
 dev-libs/intel-ipsec-mb 0.49: Multi-Buffer Crypto for IPsec Library
