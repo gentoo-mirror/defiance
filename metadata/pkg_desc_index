@@ -3,15 +3,15 @@ app-admin/heketi 8.0.0 9.0.0: RESTful based volume management framework for Glus
 app-emulation/kvmtool 9999: A lightweight tool for hosting KVM guests
 dev-db/cstore_fdw 1.7.0: Columnar store for analytics with Postgres
 dev-db/git_fdw 9999: A PostgreSQL foreign data wrapper for git
-dev-db/hypopg 1.1.4: Hypothetical Indexes for PostgreSQL
+dev-db/hypopg 1.2.0: Hypothetical Indexes for PostgreSQL
 dev-db/kafka_fdw 9999: kafka foreign database wrapper for postresql
 dev-db/pg_jobmon 1.3.3: PostgreSQL Extension for logging and monitoring automated jobs
 dev-db/pg_partman 3.1.1: Postgres time and serial partitioner
 dev-db/pg_pathman 1.4.9: Partitioning tool for PostgreSQL
 dev-db/pg_qualstats 2.0.2: A Postgres extension for collecting statistics about predicate
-dev-db/pg_stat_kcache 2.1.3: Gather statistics about disk access and CPU consumption done by backends
+dev-db/pg_stat_kcache 2.2.0: Gather statistics about disk access and CPU consumption done by backends
 dev-db/postgresql-hll 2.15: PostgreSQL extension adding HyperLogLog data structures as a native data type
-dev-db/powa 4.0.1: PostgreSQL Workload Analyzer
+dev-db/powa 4.1.2: PostgreSQL Workload Analyzer
 dev-db/powa-web 4.1.2: The PostgreSQL Workload Analyzer web frontend
 dev-db/redis_fdw 9999: A PostgreSQL foreign data wrapper for Redis
 dev-libs/ctap 2.0.0: Test Anything Protocol (tap) for C
