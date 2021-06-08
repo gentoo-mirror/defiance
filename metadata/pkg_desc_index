@@ -39,7 +39,7 @@ dev-util/ostree 2019.1 2019.2: Operating system and container binary deployment 
 dev-util/packer 1.7.0: A tool to create identical machine images for multiple platforms
 media-libs/gmmlib 20.1.1 9999: Intel Graphics Memory Management Library
 media-plugins/gst-plugins-vaapi 1.16.2: Hardware accelerated video decoding through VA-API plugin for GStreamer
-net-dns/bind-dyndb-ldap 11.1 9999: Bind DynDB LDAP backend (replacement for sdb-ldap and dlz)
+net-dns/bind-dyndb-ldap 11.9 9999: Bind DynDB LDAP backend (replacement for sdb-ldap and dlz)
 net-libs/dpdk 17.11.3 18.05: A set of libraries and drivers for fast packet processing
 net-libs/libcurve 9999: An encryption and authentication library for ZeroMQ applications
 net-libs/rtrlib 0.6.3: An open-source C implementation of the RPKI/Router Protocol client
