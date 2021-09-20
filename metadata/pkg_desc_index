@@ -47,7 +47,6 @@ net-misc/bird 2.0.7: A routing daemon implementing OSPF, RIPv2 & BGP for IPv4 or
 net-misc/cni-plugins 0.7.2: Some standard networking plugins, maintained by the CNI team
 net-misc/frr 6.0: an IP routing protocol suite for BGP, IS-IS, LDP, OSPF, PIM, and RIP
 net-misc/openvswitch 2.9.2: Production quality, multilayer virtual switch
-net-nds/openldap 2.4.47 2.4.47-r1: LDAP suite of application and development tools
 net-proxy/seesaw 9999: Seesaw v2 is a Linux Virtual Server (LVS) based load balancing platform
 net-vpn/networkmanager-strongswan 1.5.0: NetworkManager StrongSwan plugin
 net-vpn/strongswan 5.8.4: IPsec-based VPN solution, supporting IKEv1/IKEv2 and MOBIKE

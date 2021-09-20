@@ -35,14 +35,6 @@ net-misc/frr:staticd - Enable the static route daemon
 net-misc/frr:zeromq - Enable support for net-libs/zeromq
 net-misc/openvswitch:dpdk - Build with Data Plane Development Kit (DPDK) support
 net-misc/openvswitch:monitor - Build the Python and GUI dependent monitor applications
-net-nds/openldap:experimental - Enable experimental backend options
-net-nds/openldap:kinit - Enable support for kerberos init
-net-nds/openldap:minimal - Build libraries & userspace tools only. Does not install any server code
-net-nds/openldap:odbc - Enable ODBC and SQL backend options
-net-nds/openldap:overlays - Enable contributed OpenLDAP overlays
-net-nds/openldap:pbkdf2 - Enable support for pbkdf2 passwords
-net-nds/openldap:sha2 - Enable support for pw-sha2 password hashes
-net-nds/openldap:smbkrb5passwd - Enable overlay for syncing ldap, unix and lanman passwords
 net-proxy/seesaw:anycast - Enable anycast TCP protocol via communication with quagga
 net-vpn/strongswan:constraints - Enable advanced X.509 constraint checking plugin
 net-vpn/strongswan:dhcp - Enable server support for querying virtual IP addresses for clients from a DHCP server. (IKEv2 only)
