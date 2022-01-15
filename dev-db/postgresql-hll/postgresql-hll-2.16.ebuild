@@ -1,33 +1,31 @@
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=6
 
 POSTGRES_COMPAT=( 13 14 )
 POSTGRES_USEDEP="server"
 
-inherit eutils git-r3 postgres-multi
+inherit eutils postgres-multi versionator
 
 SLOT="0"
 
-DESCRIPTION="kafka foreign database wrapper for postresql"
-HOMEPAGE="https://github.com/adjust/kafka_fdw"
-EGIT_REPO_URI="https://github.com/adjust/${PN}"
+DESCRIPTION="PostgreSQL extension adding HyperLogLog data structures as a native data type"
+HOMEPAGE="https://github.com/citusdata/postgresql-hll"
+SRC_URI="https://github.com/citusdata/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
-LICENSE="AGPL-3"
+LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE="static-libs"
 REQUIRED_USE="${POSTGRES_REQ_USE}"
 
 DEPEND="
 	${POSTGRES_DEP}
-	dev-libs/librdkafka
 "
 RDEPEND="${DEPEND}"
 
 src_prepare() {
 	eapply_user
-	eautoreconf
 	postgres-multi_src_prepare
 }
 
