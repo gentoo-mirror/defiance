@@ -25,7 +25,6 @@ media-libs/gmmlib 20.1.1 9999: Intel Graphics Memory Management Library
 media-plugins/gst-plugins-vaapi 1.16.2: Hardware accelerated video decoding through VA-API plugin for GStreamer
 net-dns/bind-dyndb-ldap 11.9 9999: Bind DynDB LDAP backend (replacement for sdb-ldap and dlz)
 net-libs/dpdk 17.11.3 18.05: A set of libraries and drivers for fast packet processing
-net-libs/libcurve 9999: An encryption and authentication library for ZeroMQ applications
 net-libs/rtrlib 0.6.3: An open-source C implementation of the RPKI/Router Protocol client
 net-misc/bird 2.0.7: A routing daemon implementing OSPF, RIPv2 & BGP for IPv4 or IPv6
 net-misc/cni-plugins 0.7.2: Some standard networking plugins, maintained by the CNI team
