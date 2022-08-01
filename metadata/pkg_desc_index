@@ -42,7 +42,6 @@ media-plugins/gst-plugins-vaapi 1.16.2: Hardware accelerated video decoding thro
 net-dns/bind-dyndb-ldap 11.9 9999: Bind DynDB LDAP backend (replacement for sdb-ldap and dlz)
 net-libs/dpdk 17.11.3 18.05: A set of libraries and drivers for fast packet processing
 net-libs/libcurve 9999: An encryption and authentication library for ZeroMQ applications
-net-libs/rtrlib 0.6.3: An open-source C implementation of the RPKI/Router Protocol client
 net-misc/bird 2.0.7: A routing daemon implementing OSPF, RIPv2 & BGP for IPv4 or IPv6
 net-misc/cni-plugins 0.7.2: Some standard networking plugins, maintained by the CNI team
 net-misc/frr 6.0: an IP routing protocol suite for BGP, IS-IS, LDP, OSPF, PIM, and RIP
@@ -53,5 +52,4 @@ net-vpn/strongswan 5.8.4: IPsec-based VPN solution, supporting IKEv1/IKEv2 and M
 sys-cluster/nomad 0.8.0: The cluster manager from Hashicorp
 www-apps/gitea 1.7.0: A painless self-hosted Git service, written in Go
 x11-libs/libva 2.7.0 9999: Video Acceleration (VA) API for Linux
-x11-libs/libva-intel-media-driver 20.1.1 9999: Intel Media Driver for VAAPI (iHD)
 x11-themes/albatross 1.7.4: Desktop Suite for Xfce
