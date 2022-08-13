@@ -61,5 +61,3 @@ net-vpn/strongswan:strongswan_plugins_unity - Enable support for the unity plugi
 net-vpn/strongswan:strongswan_plugins_vici - Enable support for the vici plugin
 net-vpn/strongswan:strongswan_plugins_whitelist - Enable support for the whitelist plugin
 sys-cluster/nomad:lxc - Use LXC as a container manager
-x11-libs/libva:drm - Enables VA/DRM API support.
-x11-libs/libva:utils - Install VA-API utility programs.

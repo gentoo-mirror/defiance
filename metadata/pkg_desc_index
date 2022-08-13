@@ -51,5 +51,4 @@ net-vpn/networkmanager-strongswan 1.5.0: NetworkManager StrongSwan plugin
 net-vpn/strongswan 5.8.4: IPsec-based VPN solution, supporting IKEv1/IKEv2 and MOBIKE
 sys-cluster/nomad 0.8.0: The cluster manager from Hashicorp
 www-apps/gitea 1.7.0: A painless self-hosted Git service, written in Go
-x11-libs/libva 2.7.0 9999: Video Acceleration (VA) API for Linux
 x11-themes/albatross 1.7.4: Desktop Suite for Xfce
