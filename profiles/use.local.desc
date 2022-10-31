@@ -14,24 +14,6 @@ media-plugins/gst-plugins-vaapi:gles2 - Enable GLESv2 and GLESv3 support
 net-misc/bird:client - Build the ncurses/readline full featured CLI
 net-misc/bird:mpls - Enable support for multiprotocol label switching (MPLS)
 net-misc/bird:ssh - Enabled RPKI support via SSH using net-libs/libssh
-net-misc/frr:bfdd - Enable the Bi-Directional Forwarding detection daemon
-net-misc/frr:datacenter - Enable Cumulus Switch and Data Center Extensions
-net-misc/frr:eigrpd - Enable support for the EIGRP protocol Daemon
-net-misc/frr:fpm - Enable Forwarding Plane Manager support
-net-misc/frr:ldpd - Enable Label Distribution Protocol (LDP) support for MPLS support
-net-misc/frr:multipath - Enable multipath routes support for any number of routes
-net-misc/frr:nhrpd - Build Next Hop Resolution Protocol daemon
-net-misc/frr:ospf - Enable OSPF support on a whole including the API
-net-misc/frr:pam - Add support for PAM (via sys-libs/pam) to the Quagga Virtual Terminal Interface Shell (vtysh); if the readline USE flag is disabled, this flag is ignored
-net-misc/frr:pbrd - Enable the policy based routing daemon
-net-misc/frr:protobuf - Enable support for dev-libs/protobuf
-net-misc/frr:readline - Enable support for sys-libs/readline to provide the Quagga Virtual Terminal Interface Shell (vtysh)
-net-misc/frr:realms - Enable realms support
-net-misc/frr:rpki - Enable support for Resource Public Key Infrastructure (RPKI) using the net-libs/rtrlib library rpki is primarily used to validate routes.
-net-misc/frr:sharpd - Enable Sharp support
-net-misc/frr:ssh - Enable support for secure remote shell access
-net-misc/frr:staticd - Enable the static route daemon
-net-misc/frr:zeromq - Enable support for net-libs/zeromq
 net-misc/openvswitch:dpdk - Build with Data Plane Development Kit (DPDK) support
 net-misc/openvswitch:monitor - Build the Python and GUI dependent monitor applications
 net-proxy/seesaw:anycast - Enable anycast TCP protocol via communication with quagga
