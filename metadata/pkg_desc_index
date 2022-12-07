@@ -1,5 +1,3 @@
-app-admin/clockwork 3.3.2: The nifty configuration managment system
-app-admin/heketi 8.0.0 9.0.0: RESTful based volume management framework for GlusterFS
 app-emulation/kvmtool 9999: A lightweight tool for hosting KVM guests
 dev-db/cstore_fdw 1.7.0: Columnar store for analytics with Postgres
 dev-db/git_fdw 9999: A PostgreSQL foreign data wrapper for git
@@ -43,9 +41,5 @@ net-libs/dpdk 17.11.3 18.05: A set of libraries and drivers for fast packet proc
 net-libs/libcurve 9999: An encryption and authentication library for ZeroMQ applications
 net-misc/bird 2.0.7: A routing daemon implementing OSPF, RIPv2 & BGP for IPv4 or IPv6
 net-misc/openvswitch 2.9.2: Production quality, multilayer virtual switch
-net-proxy/seesaw 9999: Seesaw v2 is a Linux Virtual Server (LVS) based load balancing platform
 net-vpn/networkmanager-strongswan 1.5.0: NetworkManager StrongSwan plugin
-net-vpn/strongswan 5.8.4: IPsec-based VPN solution, supporting IKEv1/IKEv2 and MOBIKE
-sys-cluster/nomad 0.8.0: The cluster manager from Hashicorp
-www-apps/gitea 1.7.0: A painless self-hosted Git service, written in Go
 x11-themes/albatross 1.7.4: Desktop Suite for Xfce
