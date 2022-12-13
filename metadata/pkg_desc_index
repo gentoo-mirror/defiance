@@ -41,5 +41,4 @@ net-libs/dpdk 17.11.3 18.05: A set of libraries and drivers for fast packet proc
 net-libs/libcurve 9999: An encryption and authentication library for ZeroMQ applications
 net-misc/bird 2.0.7: A routing daemon implementing OSPF, RIPv2 & BGP for IPv4 or IPv6
 net-misc/openvswitch 2.9.2: Production quality, multilayer virtual switch
-net-vpn/networkmanager-strongswan 1.5.0: NetworkManager StrongSwan plugin
 x11-themes/albatross 1.7.4: Desktop Suite for Xfce

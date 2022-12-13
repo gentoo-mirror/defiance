@@ -2,9 +2,6 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-app-admin/clockwork:clockd - Install the master daemon
-app-admin/clockwork:meshd - Install the clockwork push daemon
-app-admin/clockwork:vim-syntax - Install vim syntax for clockwork configuration and recipies
 dev-util/ostree:gjs - Enable javascript tests
 dev-util/ostree:grub - Enable grub configuration building
 dev-util/ostree:soup - Use libsoup for networking
@@ -16,29 +13,3 @@ net-misc/bird:mpls - Enable support for multiprotocol label switching (MPLS)
 net-misc/bird:ssh - Enabled RPKI support via SSH using net-libs/libssh
 net-misc/openvswitch:dpdk - Build with Data Plane Development Kit (DPDK) support
 net-misc/openvswitch:monitor - Build the Python and GUI dependent monitor applications
-net-proxy/seesaw:anycast - Enable anycast TCP protocol via communication with quagga
-net-vpn/strongswan:constraints - Enable advanced X.509 constraint checking plugin
-net-vpn/strongswan:dhcp - Enable server support for querying virtual IP addresses for clients from a DHCP server. (IKEv2 only)
-net-vpn/strongswan:eap - Enable support for the different EAP modules that are supported
-net-vpn/strongswan:farp - Enable faking of ARP responses for virtual IP addresses assigned to clients (IKEv2 only)
-net-vpn/strongswan:gcrypt - Enable dev-libs/libgcrypt plugin which provides 3DES, AES, Blowfish, Camellia, CAST, DES, Serpent and Twofish ciphers along with MD4, MD5 and SHA1/2 hash algorithms, RSA and DH groups 1,2,5,14-18 and 22-24(4.4+). Also includes a software random number generator.
-net-vpn/strongswan:non-root - Force IKEv1/IKEv2 daemons to normal user privileges. This might impose some restrictions mainly to the IKEv1 daemon. Disable only if you really require superuser privileges.
-net-vpn/strongswan:openssl - Enable dev-libs/openssl plugin which is required for Elliptic Curve Cryptography (DH groups 19-21,25,26) and ECDSA. Also provides 3DES, AES, Blowfish, Camellia, CAST, DES, IDEA and RC5 ciphers along with MD2, MD4, MD5 and SHA1/2 hash algorithms, RSA and DH groups 1,2,5,14-18 and 22-24(4.4+) dev-libs/openssl has to be compiled with USE="-bindist".
-net-vpn/strongswan:pkcs11 - Enable pkcs11 support
-net-vpn/strongswan:strongswan_plugins_blowfish - Enable support for the blowfish plugin
-net-vpn/strongswan:strongswan_plugins_ccm - Enable support for the ccm plugin
-net-vpn/strongswan:strongswan_plugins_ctr - Enable support for the ctr plugin
-net-vpn/strongswan:strongswan_plugins_gcm - Enable support for the gcm plugin
-net-vpn/strongswan:strongswan_plugins_ha - Enable support for the ha plugin
-net-vpn/strongswan:strongswan_plugins_ipseckey - Enable support for the ipseckey plugin
-net-vpn/strongswan:strongswan_plugins_led - Enable support for the led plugin
-net-vpn/strongswan:strongswan_plugins_lookip - Enable support for the lookip plugin
-net-vpn/strongswan:strongswan_plugins_ntru - Enable support for the ntru plugin
-net-vpn/strongswan:strongswan_plugins_padlock - Enable support for the padlock plugin
-net-vpn/strongswan:strongswan_plugins_rdrand - Enable support for the rdrand plugin
-net-vpn/strongswan:strongswan_plugins_systime-fix - Enable support for the systime-fix plugin
-net-vpn/strongswan:strongswan_plugins_unbound - Enable support for the unbound plugin
-net-vpn/strongswan:strongswan_plugins_unity - Enable support for the unity plugin
-net-vpn/strongswan:strongswan_plugins_vici - Enable support for the vici plugin
-net-vpn/strongswan:strongswan_plugins_whitelist - Enable support for the whitelist plugin
-sys-cluster/nomad:lxc - Use LXC as a container manager
