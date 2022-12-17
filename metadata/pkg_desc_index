@@ -11,6 +11,7 @@ dev-db/pg_stat_kcache 2.2.1: Gather statistics about disk access and CPU consump
 dev-db/postgresql-hll 2.15 2.16: PostgreSQL extension adding HyperLogLog data structures as a native data type
 dev-db/powa 4.1.4: PostgreSQL Workload Analyzer
 dev-db/powa-collector 1.2.0: A multi-threaded program that performs the snapshots for the remote servers configured in a powa repository.
+dev-db/powa-web 4.1.3: The PostgreSQL Workload Analyzer web frontend
 dev-db/redis_fdw 9999: A PostgreSQL foreign data wrapper for Redis
 dev-libs/ctap 2.0.0: Test Anything Protocol (tap) for C
 dev-libs/intel-ipsec-mb 0.49: Multi-Buffer Crypto for IPsec Library
