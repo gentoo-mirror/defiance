@@ -3,8 +3,10 @@ dev-db/cstore_fdw 1.7.0: Columnar store for analytics with Postgres
 dev-db/git_fdw 9999: A PostgreSQL foreign data wrapper for git
 dev-db/hypopg 1.3.1: Hypothetical Indexes for PostgreSQL
 dev-db/kafka_fdw 9999: kafka foreign database wrapper for postresql
+dev-db/pg_partman 4.7.2: Postgres time and serial partitioner
 dev-db/pg_qualstats 2.0.4: A Postgres extension for collecting statistics about predicate
 dev-db/pg_stat_kcache 2.2.1: Gather statistics about disk access and CPU consumption done by backends
+dev-db/postgresql-hll 2.17: PostgreSQL extension adding HyperLogLog data structures as a native data type
 dev-db/powa 4.1.4: PostgreSQL Workload Analyzer
 dev-db/powa-collector 1.2.0: A multi-threaded program that performs the snapshots for the remote servers configured in a powa repository.
 dev-db/powa-web 4.1.3: The PostgreSQL Workload Analyzer web frontend
@@ -34,5 +36,4 @@ dev-util/packer 1.7.0: A tool to create identical machine images for multiple pl
 media-plugins/gst-plugins-vaapi 1.16.2: Hardware accelerated video decoding through VA-API plugin for GStreamer
 net-dns/bind-dyndb-ldap 11.10 9999: Bind DynDB LDAP backend (replacement for sdb-ldap and dlz)
 net-libs/libcurve 9999: An encryption and authentication library for ZeroMQ applications
-net-misc/bird 2.0.7: A routing daemon implementing OSPF, RIPv2 & BGP for IPv4 or IPv6
 x11-themes/albatross 1.7.4: Desktop Suite for Xfce

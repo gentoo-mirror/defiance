@@ -8,8 +8,3 @@ dev-util/ostree:soup - Use libsoup for networking
 media-plugins/gst-plugins-vaapi:drm - Enable DRM renderer
 media-plugins/gst-plugins-vaapi:egl - Enable EGL support
 media-plugins/gst-plugins-vaapi:gles2 - Enable GLESv2 and GLESv3 support
-net-misc/bird:client - Build the ncurses/readline full featured CLI
-net-misc/bird:mpls - Enable support for multiprotocol label switching (MPLS)
-net-misc/bird:ssh - Enabled RPKI support via SSH using net-libs/libssh
-net-misc/openvswitch:dpdk - Build with Data Plane Development Kit (DPDK) support
-net-misc/openvswitch:monitor - Build the Python and GUI dependent monitor applications
