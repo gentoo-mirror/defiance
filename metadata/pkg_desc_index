@@ -3,10 +3,10 @@ dev-db/cstore_fdw 1.7.0: Columnar store for analytics with Postgres
 dev-db/git_fdw 9999: A PostgreSQL foreign data wrapper for git
 dev-db/hypopg 1.4.1: Hypothetical Indexes for PostgreSQL
 dev-db/kafka_fdw 9999: kafka foreign database wrapper for postresql
-dev-db/nats_c 3.8.0: 
+dev-db/nats_c 3.8.2: 
 dev-db/pg_partman 4.7.2: Postgres time and serial partitioner
 dev-db/pg_qualstats 2.1.0: A Postgres extension for collecting statistics about predicate
-dev-db/pg_stat_kcache 2.2.1 9999: Gather statistics about disk access and CPU consumption done by backends
+dev-db/pg_stat_kcache 2.2.3 9999: Gather statistics about disk access and CPU consumption done by backends
 dev-db/pgaudit 16.0: Open Source PostgreSQL Audit Logging
 dev-db/pgvector 0.5.0 0.7.2: Open-source vector similarity search for Postgres
 dev-db/postgresql-hll 2.18: PostgreSQL extension adding HyperLogLog data structures as a native data type
