@@ -5,7 +5,7 @@ dev-db/hypopg 1.4.1: Hypothetical Indexes for PostgreSQL
 dev-db/kafka_fdw 9999: kafka foreign database wrapper for postresql
 dev-db/nats_c 3.8.2: 
 dev-db/pg_partman 4.7.2: Postgres time and serial partitioner
-dev-db/pg_qualstats 2.1.0: A Postgres extension for collecting statistics about predicate
+dev-db/pg_qualstats 2.1.0 2.1.1: A Postgres extension for collecting statistics about predicate
 dev-db/pg_stat_kcache 2.2.3 9999: Gather statistics about disk access and CPU consumption done by backends
 dev-db/pgaudit 16.0: Open Source PostgreSQL Audit Logging
 dev-db/pgvector 0.5.0 0.7.2: Open-source vector similarity search for Postgres
