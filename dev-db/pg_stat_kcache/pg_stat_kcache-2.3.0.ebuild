@@ -2,16 +2,18 @@
 
 EAPI=7
 
-POSTGRES_COMPAT=( 16 )
+POSTGRES_COMPAT=( 15 16 17 )
 POSTGRES_USEDEP="server"
 
-inherit postgres-multi multilib
+PSRC="REL${PV//./_}"
+S="${WORKDIR}/${PN}-${PSRC}"
+inherit postgres-multi
 
-SLOT="16"
+SLOT="0"
 
-DESCRIPTION="Open Source PostgreSQL Audit Logging"
-HOMEPAGE="http://pgaudit.org/"
-SRC_URI="https://github.com/${PN}/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
+DESCRIPTION="Gather statistics about disk access and CPU consumption done by backends"
+HOMEPAGE="https://github.com/powa-team/pg_stat_kcache"
+SRC_URI="https://github.com/powa-team/${PN}/archive/${PSRC}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="CC0-1.0"
 SLOT="0"
@@ -22,18 +24,14 @@ REQUIRED_USE="${POSTGRES_REQ_USE}"
 DEPEND="
 	${POSTGRES_DEP}
 "
-RDEPEND="
-	${DEPEND}
-"
+RDEPEND="${DEPEND}"
 
 src_prepare() {
 	eapply_user
-	sed -e 's/PG_CONFIG\s\+=/PG_CONFIG\ ?=/' -i Makefile
 	postgres-multi_src_prepare
 }
 
 src_compile() {
-	export USE_PGXS=1
 	postgres-multi_foreach emake
 }
 
