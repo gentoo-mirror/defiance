@@ -33,7 +33,6 @@ dev-perl/String-PerlIdentifier 0.06: Generate a random name for a Perl variable
 dev-perl/System-Command 1.118: Object for running system commands
 dev-util/ostree 2019.1 2019.2: Operating system and container binary deployment and upgrades
 dev-util/packer 1.7.0: A tool to create identical machine images for multiple platforms
-media-plugins/gst-plugins-vaapi 1.16.2: Hardware accelerated video decoding through VA-API plugin for GStreamer
 net-dns/bind-dyndb-ldap 11.10 9999: Bind DynDB LDAP backend (replacement for sdb-ldap and dlz)
 net-libs/libcurve 9999: An encryption and authentication library for ZeroMQ applications
 x11-themes/albatross 1.7.4: Desktop Suite for Xfce
