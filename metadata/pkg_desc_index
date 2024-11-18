@@ -14,7 +14,6 @@ dev-db/powa 4.2.0: PostgreSQL Workload Analyzer
 dev-db/powa-collector 1.2.0: A multi-threaded program that performs the snapshots for the remote servers configured in a powa repository.
 dev-db/powa-web 4.2.0: The PostgreSQL Workload Analyzer web frontend
 dev-db/redis_fdw 9999: A PostgreSQL foreign data wrapper for Redis
-dev-libs/intel-ipsec-mb 0.49: Multi-Buffer Crypto for IPsec Library
 dev-perl/Authen-OATH 1.0.0: OATH One Time Passwords
 dev-perl/Authen-SASL-XS 1.00: Code to glue Perl SASL to Cyrus SASL
 dev-perl/Dancer 1.3202: A minimal-effort oriented web application framework
