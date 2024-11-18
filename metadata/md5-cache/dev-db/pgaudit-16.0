@@ -11,5 +11,5 @@ RDEPEND=postgres_targets_postgres16? ( dev-db/postgresql:16=[server] )
 REQUIRED_USE=|| ( postgres_targets_postgres16 )
 SLOT=16
 SRC_URI=https://github.com/pgaudit/pgaudit/archive/refs/tags/16.0.tar.gz -> pgaudit-16.0.tar.gz
-_eclasses_=out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	postgres	2ad3e67607a9b24fe6973ddf464c5258	postgres-multi	ccad35d745ce66b41837db8a6ee94601	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87
+_eclasses_=multibuild	4650a65187015567b4e041bb9bfdb364	multilib	b2a329026f2e404e9e371097dda47f96	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	postgres	2ad3e67607a9b24fe6973ddf464c5258	postgres-multi	ccad35d745ce66b41837db8a6ee94601	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87
 _md5_=3d299845e60b756b6cc02fdc599e603d
