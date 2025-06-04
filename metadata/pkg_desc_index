@@ -11,8 +11,6 @@ dev-db/pgaudit 16.0 17.0: Open Source PostgreSQL Audit Logging
 dev-db/pgvector 0.7.2 0.7.4: Open-source vector similarity search for Postgres
 dev-db/postgresql-hll 2.18: PostgreSQL extension adding HyperLogLog data structures as a native data type
 dev-db/powa 4.2.0: PostgreSQL Workload Analyzer
-dev-db/powa-collector 1.2.0: A multi-threaded program that performs the snapshots for the remote servers configured in a powa repository.
-dev-db/powa-web 4.2.0: The PostgreSQL Workload Analyzer web frontend
 dev-db/redis_fdw 9999: A PostgreSQL foreign data wrapper for Redis
 dev-perl/Authen-OATH 1.0.0: OATH One Time Passwords
 dev-perl/Authen-SASL-XS 1.00: Code to glue Perl SASL to Cyrus SASL
