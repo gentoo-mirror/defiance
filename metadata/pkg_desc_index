@@ -1,7 +1,7 @@
 app-emulation/kvmtool 9999: A lightweight tool for hosting KVM guests
 dev-db/cstore_fdw 1.7.0: Columnar store for analytics with Postgres
 dev-db/git_fdw 9999: A PostgreSQL foreign data wrapper for git
-dev-db/hypopg 1.4.1: Hypothetical Indexes for PostgreSQL
+dev-db/hypopg 1.4.1 1.4.2: Hypothetical Indexes for PostgreSQL
 dev-db/kafka_fdw 9999: kafka foreign database wrapper for postresql
 dev-db/nats_c 3.8.2: 
 dev-db/pg_partman 4.7.2: Postgres time and serial partitioner
