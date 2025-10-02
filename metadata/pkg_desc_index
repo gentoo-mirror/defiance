@@ -7,7 +7,7 @@ dev-db/libvalkey 0.2.1: Valkey client library in C
 dev-db/nats_c 3.8.2 3.10.1: 
 dev-db/pg_partman 4.7.2: Postgres time and serial partitioner
 dev-db/pg_qualstats 2.1.0 2.1.1 2.1.2: A Postgres extension for collecting statistics about predicate
-dev-db/pg_stat_kcache 2.2.3 2.3.0 9999: Gather statistics about disk access and CPU consumption done by backends
+dev-db/pg_stat_kcache 2.2.3 2.3.0 2.3.1 9999: Gather statistics about disk access and CPU consumption done by backends
 dev-db/pgaudit 16.0 17.0 18.0: Open Source PostgreSQL Audit Logging
 dev-db/pgvector 0.7.2 0.7.4 0.8.1: Open-source vector similarity search for Postgres
 dev-db/postgresql-hll 2.18: PostgreSQL extension adding HyperLogLog data structures as a native data type
