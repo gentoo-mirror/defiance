@@ -4,7 +4,7 @@ dev-db/git_fdw 9999: A PostgreSQL foreign data wrapper for git
 dev-db/hypopg 1.4.1 1.4.2: Hypothetical Indexes for PostgreSQL
 dev-db/kafka_fdw 9999: kafka foreign database wrapper for postresql
 dev-db/libvalkey 0.2.1: Valkey client library in C
-dev-db/nats_c 3.8.2 3.10.1: 
+dev-db/nats_c 3.8.2 3.10.1 3.11.0: 
 dev-db/pg_partman 4.7.2: Postgres time and serial partitioner
 dev-db/pg_qualstats 2.1.0 2.1.1 2.1.2: A Postgres extension for collecting statistics about predicate
 dev-db/pg_stat_kcache 2.2.3 2.3.0 2.3.1 9999: Gather statistics about disk access and CPU consumption done by backends
